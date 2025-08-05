@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:white_harness",
+    "happy_airships:propeller"
+  ],
+  "result": {
+    "count": 1,
+    "id": "happy_airships:white_harness_with_propeller"
+  }
+}

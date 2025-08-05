@@ -1,0 +1,104 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 2025-08-04 18:23:56
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.7/net.minecraft.core.MappedRegistry.validateWrite(MappedRegistry.java:76) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23211!/:?] {re:mixin,pl:unprotect:A,re:classloading,pl:mixin:A,pl:unprotect:A}
+-- Mod loading issue for: happy_airships --
+Details:
+	Mod file: /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/neoforge/build/resources/main/
+	Failure message: Happy Airships (happy_airships) encountered an error while dispatching the net.neoforged.neoforge.registries.NewRegistryEvent event
+		java.lang.IllegalStateException: Registry is already frozen
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.IllegalStateException: Registry is already frozen
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.7/net.minecraft.core.MappedRegistry.validateWrite(MappedRegistry.java:76) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23211!/:?] {re:mixin,pl:unprotect:A,re:classloading,pl:mixin:A,pl:unprotect:A}
+	at TRANSFORMER/minecraft@1.21.7/net.minecraft.core.MappedRegistry.createIntrusiveHolder(MappedRegistry.java:347) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23211!/:?] {re:mixin,pl:unprotect:A,re:classloading,pl:mixin:A,pl:unprotect:A}
+	at TRANSFORMER/minecraft@1.21.7/net.minecraft.world.item.Item.<init>(Item.java:103) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23211!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A}
+	at TRANSFORMER/generated_b7f1828@1/io.github.ghasto69.happy_airships.ExampleMod.registriesReady(ExampleMod.java:22) ~[1507640529297562171.jar%23215!/:?] {re:classloading}
+	at TRANSFORMER/happy_airships@1.0.0/io.github.ghasto69.happy_airships.neoforge.ExampleModNeoForge.newRegisterEvent(ExampleModNeoForge.java:18) ~[%23213!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23115!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23115!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar%23115!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.5/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-9.0.5.jar%23113!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.5/net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$16(ModLoader.java:377) ~[loader-9.0.5.jar%23113!/:9.0] {}
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:computing_frames}
+	at MC-BOOTSTRAP/fml_loader@9.0.5/net.neoforged.fml.ModList.forEachModInOrder(ModList.java:174) ~[loader-9.0.5.jar%23113!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.5/net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:375) ~[loader-9.0.5.jar%23113!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.5/net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:366) ~[loader-9.0.5.jar%23113!/:9.0] {}
+	at TRANSFORMER/neoforge@21.7.8-beta/net.neoforged.neoforge.registries.RegistryManager.postNewRegistryEvent(RegistryManager.java:83) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23212!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.7.8-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:52) ~[neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.mappings.1_21_7.layered+hash.40359-v2-neoforge-21.7.8-beta.jar%23212!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.7
+	Minecraft Version ID: 1.21.7
+	Operating System: Mac OS X (aarch64) version 15.1
+	Java Version: 21.0.6, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Microsoft
+	Memory: 486278968 bytes (463 MiB) / 1409286144 bytes (1344 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 12
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M4 Pro
+	Identifier: Apple Inc. Family 0x1b588bb3 Model 0 Stepping 0
+	Microarchitecture: ARM64 SoC: Firestorm + Icestorm
+	Frequency (GHz): 0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 12
+	Graphics card #0 name: Apple M4 Pro
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MiB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MiB): 26624.00
+	Virtual memory used (MiB): 14613.20
+	Swap memory total (MiB): 2048.00
+	Swap memory used (MiB): 508.38
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 291067.56, total: 471482.09
+	Space in storage for workdir (MiB): available: 291067.56, total: 471482.09
+	JVM Flags: 0 total; 
+	ModLauncher: 9.0
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-9.0.5.jar neoforgedevdistcleaner PLUGINSERVICE 
+		loader-9.0.5.jar slf4jfixer PLUGINSERVICE 
+		loader-9.0.5.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.3.1.jar unprotect PLUGINSERVICE 
+		loader-9.0.5.jar accesstransformer PLUGINSERVICE 
+		loader-9.0.5.jar mixin TRANSFORMATIONSERVICE 
+		loader-9.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@9.0
+		minecraft@9.0
+	Mod List: 
+		1507640529297562171.jar                           |generated_b7f1828             |generated_b7f1828             |1                   |Manifest: NOSIGNATURE
+		main                                              |Happy Airships                |happy_airships                |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.|Minecraft                     |minecraft                     |1.21.7              |Manifest: NOSIGNATURE
+		neoforge-21.7.8-beta-minecraft-merged-1.21.7-loom.|NeoForge                      |neoforge                      |21.7.8-beta         |Manifest: NOSIGNATURE
+	Crash Report UUID: da58ecb3-fa3b-4875-bd1c-9122007b5e12
+	FML: 9.0.5
+	NeoForge: 21.7.8-beta

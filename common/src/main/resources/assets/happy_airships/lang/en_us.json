@@ -1,0 +1,23 @@
+{
+  "advancement.happy_airships.happy_airship": "Happy Airship",
+  "advancement.happy_airships.happy_airship.description": "Equip a propeller onto your happy ghast",
+  "itemGroup.happy_airships": "Happy Airships",
+  "enchantment.happy_airships.swiftness": "Swiftness",
+  "item.happy_airships.black_harness_with_propeller": "Black Harness With Propeller",
+  "item.happy_airships.blue_harness_with_propeller": "Blue Harness With Propeller",
+  "item.happy_airships.brown_harness_with_propeller": "Brown Harness With Propeller",
+  "item.happy_airships.cyan_harness_with_propeller": "Cyan Harness With Propeller",
+  "item.happy_airships.gray_harness_with_propeller": "Gray Harness With Propeller",
+  "item.happy_airships.green_harness_with_propeller": "Green Harness With Propeller",
+  "item.happy_airships.light_blue_harness_with_propeller": "Light Blue Harness With Propeller",
+  "item.happy_airships.light_gray_harness_with_propeller": "Light Gray Harness With Propeller",
+  "item.happy_airships.lime_harness_with_propeller": "Lime Harness With Propeller",
+  "item.happy_airships.magenta_harness_with_propeller": "Magenta Harness With Propeller",
+  "item.happy_airships.orange_harness_with_propeller": "Orange Harness With Propeller",
+  "item.happy_airships.pink_harness_with_propeller": "Pink Harness With Propeller",
+  "item.happy_airships.propeller": "Propeller",
+  "item.happy_airships.purple_harness_with_propeller": "Purple Harness With Propeller",
+  "item.happy_airships.red_harness_with_propeller": "Red Harness With Propeller",
+  "item.happy_airships.white_harness_with_propeller": "White Harness With Propeller",
+  "item.happy_airships.yellow_harness_with_propeller": "Yellow Harness With Propeller"
+}

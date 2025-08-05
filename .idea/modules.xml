@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/happy_airships.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/happy_airships.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/happy_airships.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.test.iml" />
+    </modules>
+  </component>
+</project>

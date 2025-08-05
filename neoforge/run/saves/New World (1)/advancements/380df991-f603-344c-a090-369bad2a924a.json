@@ -1,0 +1,303 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-05 09:42:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2025-08-05 09:42:12 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-08-05 13:05:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-08-05 13:05:35 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/purple_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/white_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/green_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/red_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/orange_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/black_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/magenta_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/yellow_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/lime_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/cyan_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/pink_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/brown_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-05 13:52:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/propeller": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-08-05 13:53:32 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:happy_airship": {
+    "criteria": {
+      "trigger": "2025-08-05 21:33:24 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4440
+}

@@ -1,0 +1,5 @@
+/give @s happy_airships:test
+/give @s happy_airships:yellow_harness_with_propeller
+/xp set @s 1000000 points
+/xp set @s 10 levels
+/enchant @s happy_airships:swiftness 2

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "io.github.ghasto69.happy_airships.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "HappyGhastRendererMixin"
+  ],
+  "mixins": [
+    "EquippableMixin",
+    "HappyGhastMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

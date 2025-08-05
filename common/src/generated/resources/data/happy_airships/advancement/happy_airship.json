@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:husbandry/place_dried_ghast_in_water",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.happy_airships.happy_airship.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "happy_airships:propeller"
+    },
+    "title": {
+      "translate": "advancement.happy_airships.happy_airship"
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "happy_airships:item/red_harness_with_propeller"
+  }
+}

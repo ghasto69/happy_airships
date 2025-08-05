@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[9,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "happy_airships"
+version = "${version}"
+displayName = "Happy Airships"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.happy_airships]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.7,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.happy_airships]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.8,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "happy_airships.mixins.json"
