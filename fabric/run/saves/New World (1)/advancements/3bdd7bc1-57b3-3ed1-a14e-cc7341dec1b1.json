@@ -1,0 +1,111 @@
+{
+  "happy_airships:recipes/misc/purple_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/white_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/yellow_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/green_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/red_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/lime_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/cyan_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/orange_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_ocean": "2025-08-06 14:13:05 +0200"
+    },
+    "done": false
+  },
+  "happy_airships:recipes/misc/black_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/magenta_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/pink_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/brown_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 14:13:04 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:lime_harness",
-    "happy_airships:propeller"
+    {
+      "item": "vanillabackport:lime_harness"
+    },
+    {
+      "item": "happy_airships:propeller"
+    }
   ],
   "result": {
     "count": 1,

@@ -1,5 +1,6 @@
 package io.github.ghasto69.happy_airships.fabric.datagen;
 
+import com.blackgear.vanillabackport.core.VanillaBackport;
 import io.github.ghasto69.happy_airships.ExampleMod;
 import io.github.ghasto69.happy_airships.HAAdvancements;
 import io.github.ghasto69.happy_airships.HAItems;
@@ -25,7 +26,7 @@ public class HAAdvancementProvider extends FabricAdvancementProvider {
     @Override
     public void generateAdvancement(HolderLookup.Provider provider, Consumer<AdvancementHolder> consumer) {
         final var happyAirship = Advancement.Builder.advancement()
-                .parent(ResourceLocation.withDefaultNamespace("husbandry/place_dried_ghast_in_water"))
+                .parent(ResourceLocation.withDefaultNamespace("husbandry/root"))
                 .display(
                         HAItems.PROPELLER,
                         Component.translatable("advancement.happy_airships.happy_airship"),

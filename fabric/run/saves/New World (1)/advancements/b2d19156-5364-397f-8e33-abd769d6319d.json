@@ -1,0 +1,280 @@
+{
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/orange_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:happy_airship": {
+    "criteria": {
+      "trigger": "2025-08-06 15:13:36 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/purple_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/white_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/light_blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/yellow_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/brown_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/pink_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/black_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/green_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/red_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/lime_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/purple_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/white_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/cyan_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/orange_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/lime_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2025-08-06 15:13:20 +0200",
+      "minecraft:snowy_beach": "2025-08-06 15:13:28 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/black_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/light_gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/cyan_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/magenta_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/red_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/pink_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/light_gray_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/brown_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "vanillabackport:recipes/transportation/green_harness": {
+    "criteria": {
+      "has_dried_ghast": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-08-06 15:13:26 +0200"
+    },
+    "done": true
+  },
+  "happy_airships:recipes/misc/blue_harness_with_propeller": {
+    "criteria": {
+      "has_propeller": "2025-08-06 15:13:19 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

@@ -7,7 +7,7 @@
     "HappyGhastRendererMixin"
   ],
   "mixins": [
-    "EquippableMixin",
+    "HarnessItemMixin",
     "HappyGhastMixin"
   ],
   "injectors": {

@@ -1,1 +1,5 @@
 /advancement grant @s only happy_airships:husbandry/happy_airship
+/effect give 1b8ce8af-ab80-4e1f-beb8-3a87d6f75374 minecraft:invisibility infinite
+/enchant @s happy_airships:swiftness 2
+/data get entity 2fa310b6-467d-434b-85b8-266d711b5f42
+/data get entity a1b24e50-a4f3-41c9-8bbc-63ad79ca6596

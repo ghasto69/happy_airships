@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:red_harness",
-    "happy_airships:propeller"
+    {
+      "item": "vanillabackport:red_harness"
+    },
+    {
+      "item": "happy_airships:propeller"
+    }
   ],
   "result": {
     "count": 1,

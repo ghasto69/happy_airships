@@ -1,53 +1,55 @@
 package io.github.ghasto69.happy_airships;
 
+import com.blackgear.vanillabackport.client.level.entities.model.HappyGhastModel;
+import com.blackgear.vanillabackport.common.level.entities.happyghast.HappyGhast;
+import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.VertexMultiConsumer;
 import com.mojang.math.Axis;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.HappyGhastModel;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.state.HappyGhastRenderState;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
 
 import java.util.List;
 
-public class PropellerLayer<M extends HappyGhastModel> extends RenderLayer<HappyGhastRenderState, M> {
+public class PropellerLayer extends RenderLayer<HappyGhast, HappyGhastModel<HappyGhast>> {
 
     private static final ResourceLocation RENDER_TYPE_ID =
             ExampleMod.id("textures/entity/happy_ghast/propeller.png");
 
-    public PropellerLayer(RenderLayerParent<HappyGhastRenderState, M> renderLayerParent) {
+    public PropellerLayer(RenderLayerParent<HappyGhast, HappyGhastModel<HappyGhast>> renderLayerParent) {
         super(renderLayerParent);
     }
 
     private record Vertex(float x, float y, float z, float u, float v) {}
 
     @Override
-    public void render(PoseStack poseStack, MultiBufferSource multiBufferSource, int light,
-                       HappyGhastRenderState renderState, float f, float g) {
-
-        if (!renderState.bodyItem.is(HAItemTags.HARNESSES_WITH_PROPELLERS)) return;
+    public void render(PoseStack poseStack, MultiBufferSource multiBufferSource, int light, HappyGhast entity, float f, float g, float partialTick, float j, float k, float l) {
+        if (!entity.getItemBySlot(EquipmentSlot.CHEST).is(HAItemTags.HARNESSES_WITH_PROPELLERS)) return;
 
         poseStack.pushPose();
 
-        boolean glint = renderState.bodyItem.hasFoil();
+        boolean glint = entity.getItemBySlot(EquipmentSlot.CHEST).hasFoil();
         VertexConsumer glintVertexConsumer = multiBufferSource.getBuffer(RenderType.entityGlint());
         VertexConsumer vertexConsumer = multiBufferSource.getBuffer(RenderType.entityCutoutNoCull(RENDER_TYPE_ID));
         if (glint) {
             vertexConsumer = VertexMultiConsumer.create(glintVertexConsumer, vertexConsumer);
         }
 
+        poseStack.scale(0.25f, 0.25f, 0.25f);
+        poseStack.translate(0f, 4.5f, 0f);
+
         poseStack.translate(-2f, -2.5f, 2f + (1f / 8f));
         poseStack.translate(2f, 2f, 0f);
 
-        float rotation = (renderState.ageInTicks +
-                Minecraft.getInstance().getDeltaTracker().getGameTimeDeltaTicks()) *
-                (renderState.isRidden ? 1f : 0.1f) * 20f % 360f;
+        float time = entity.tickCount + partialTick;
+        float rotation = (time * (entity.getPassengers().isEmpty() ? 0.1f : 1) * 20) % 360f;
 
         poseStack.mulPose(Axis.ZP.rotationDegrees(rotation));
         poseStack.translate(-2f, -2f, 0f);
@@ -85,6 +87,10 @@ public class PropellerLayer<M extends HappyGhastModel> extends RenderLayer<Happy
         );
 
         poseStack.pushPose();
+
+        poseStack.scale(0.25f, 0.25f, 0.25f);
+        poseStack.translate(0f, 4.5f, 0f);
+
         poseStack.translate(2f / 8f, -0.5f, 2f + (1f / 8f));
         poseStack.mulPose(Axis.ZP.rotationDegrees(90f));
         poseStack.mulPose(Axis.YP.rotationDegrees(90f));
@@ -102,6 +108,10 @@ public class PropellerLayer<M extends HappyGhastModel> extends RenderLayer<Happy
         poseStack.popPose();
 
         poseStack.pushPose();
+
+        poseStack.scale(0.25f, 0.25f, 0.25f);
+        poseStack.translate(0f, 4.5f, 0f);
+
         poseStack.translate(0f, -0.5f - 2f / 8f, 2f + (1f / 8f));
         poseStack.mulPose(Axis.YP.rotationDegrees(90f));
 

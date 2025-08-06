@@ -30,9 +30,10 @@
   ],
   "depends": {
     "fabricloader": ">=0.17.0",
-    "minecraft": "~1.21.8",
+    "minecraft": "~1.21.1",
     "java": ">=21",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "vanillabackport": "*"
   },
   "suggests": {
     "another-mod": "*"

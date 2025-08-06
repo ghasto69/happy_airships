@@ -197,12 +197,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lodestone": {
-    "criteria": {
-      "has_iron_ingot": "2025-08-05 13:53:23 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2025-08-05 13:53:23 +0200"
@@ -299,5 +293,5 @@
     },
     "done": true
   },
-  "DataVersion": 4440
+  "DataVersion": 3955
 }

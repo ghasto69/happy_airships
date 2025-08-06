@@ -1,27 +1,22 @@
 package io.github.ghasto69.happy_airships;
 
-import net.minecraft.ChatFormatting;
+import com.blackgear.vanillabackport.common.level.entities.happyghast.HappyGhast;
+import com.blackgear.vanillabackport.common.registries.ModItems;
 import net.minecraft.core.Holder;
-import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.animal.HappyGhast;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.*;
-import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
-import net.minecraft.resources.ResourceLocation;
-
-import java.util.Map;
-import java.util.function.Consumer;
 
 public class PropellerItem extends Item {
-    public static final String TOOLTIP_KEY = "tooltip.happy-air-travel.propeller";
-
     public PropellerItem(Properties properties) {
         super(properties);
     }
@@ -37,19 +32,6 @@ public class PropellerItem extends Item {
         }
     }
 
-    /*
-    @Override
-    public void appendHoverText(
-        ItemStack itemStack,
-        TooltipContext context,
-        TooltipDisplay display,
-        Consumer<Component> consumer,
-        TooltipFlag tooltipFlag
-    ) {
-        consumer.accept(Component.translatable(TOOLTIP_KEY).withStyle(ChatFormatting.GRAY));
-    }
-    */
-
     @Override
     public InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity entity, InteractionHand hand) {
         Level level = player.level();
@@ -57,40 +39,40 @@ public class PropellerItem extends Item {
             if (entity instanceof HappyGhast ghast) {
                 ItemStack handItem = player.getItemInHand(hand);
 
-                Item harnessItem = ghast.getBodyArmorItem().getItem();
+                Item harnessItem = ghast.getItemBySlot(EquipmentSlot.CHEST).getItem();
                 Item harnessWithPropeller = null;
 
-                if (harnessItem == Items.WHITE_HARNESS) {
+                if (harnessItem == ModItems.WHITE_HARNESS.get()) {
                     harnessWithPropeller = HAItems.WHITE_HARNESS;
-                } else if (harnessItem == Items.ORANGE_HARNESS) {
+                } else if (harnessItem == ModItems.ORANGE_HARNESS.get()) {
                     harnessWithPropeller = HAItems.ORANGE_HARNESS;
-                } else if (harnessItem == Items.MAGENTA_HARNESS) {
+                } else if (harnessItem == ModItems.MAGENTA_HARNESS.get()) {
                     harnessWithPropeller = HAItems.MAGENTA_HARNESS;
-                } else if (harnessItem == Items.LIGHT_BLUE_HARNESS) {
+                } else if (harnessItem == ModItems.LIGHT_BLUE_HARNESS.get()) {
                     harnessWithPropeller = HAItems.LIGHT_BLUE_HARNESS;
-                } else if (harnessItem == Items.YELLOW_HARNESS) {
+                } else if (harnessItem == ModItems.YELLOW_HARNESS.get()) {
                     harnessWithPropeller = HAItems.YELLOW_HARNESS;
-                } else if (harnessItem == Items.LIME_HARNESS) {
+                } else if (harnessItem == ModItems.LIME_HARNESS.get()) {
                     harnessWithPropeller = HAItems.LIME_HARNESS;
-                } else if (harnessItem == Items.PINK_HARNESS) {
+                } else if (harnessItem == ModItems.PINK_HARNESS.get()) {
                     harnessWithPropeller = HAItems.PINK_HARNESS;
-                } else if (harnessItem == Items.GRAY_HARNESS) {
+                } else if (harnessItem == ModItems.GRAY_HARNESS.get()) {
                     harnessWithPropeller = HAItems.GRAY_HARNESS;
-                } else if (harnessItem == Items.LIGHT_GRAY_HARNESS) {
+                } else if (harnessItem == ModItems.LIGHT_GRAY_HARNESS.get()) {
                     harnessWithPropeller = HAItems.LIGHT_GRAY_HARNESS;
-                } else if (harnessItem == Items.CYAN_HARNESS) {
+                } else if (harnessItem == ModItems.CYAN_HARNESS.get()) {
                     harnessWithPropeller = HAItems.CYAN_HARNESS;
-                } else if (harnessItem == Items.PURPLE_HARNESS) {
+                } else if (harnessItem == ModItems.PURPLE_HARNESS.get()) {
                     harnessWithPropeller = HAItems.PURPLE_HARNESS;
-                } else if (harnessItem == Items.BLUE_HARNESS) {
+                } else if (harnessItem == ModItems.BLUE_HARNESS.get()) {
                     harnessWithPropeller = HAItems.BLUE_HARNESS;
-                } else if (harnessItem == Items.BROWN_HARNESS) {
+                } else if (harnessItem == ModItems.BROWN_HARNESS.get()) {
                     harnessWithPropeller = HAItems.BROWN_HARNESS;
-                } else if (harnessItem == Items.GREEN_HARNESS) {
+                } else if (harnessItem == ModItems.GREEN_HARNESS.get()) {
                     harnessWithPropeller = HAItems.GREEN_HARNESS;
-                } else if (harnessItem == Items.RED_HARNESS) {
+                } else if (harnessItem == ModItems.RED_HARNESS.get()) {
                     harnessWithPropeller = HAItems.RED_HARNESS;
-                } else if (harnessItem == Items.BLACK_HARNESS) {
+                } else if (harnessItem == ModItems.BLACK_HARNESS.get()) {
                     harnessWithPropeller = HAItems.BLACK_HARNESS;
                 }
 
@@ -98,13 +80,13 @@ public class PropellerItem extends Item {
                 if (harnessWithPropeller != null) {
                     ItemStack upgraded = new ItemStack(harnessWithPropeller);
 
-                    Holder<Enchantment> swiftness = player.registryAccess().getOrThrow(HAEnchantments.SWIFTNESS);
+                    Holder<Enchantment> swiftness = player.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(HAEnchantments.SWIFTNESS);
                     int enchantmentLevel = EnchantmentHelper.getItemEnchantmentLevel(swiftness, handItem);
                     if (enchantmentLevel > 0) {
                         upgraded.enchant(swiftness, enchantmentLevel);
                     }
 
-                    ghast.setBodyArmorItem(upgraded);
+                    ghast.setItemSlot(EquipmentSlot.CHEST, upgraded);
 
                     handItem.shrink(1);
                     awardAdvancement(player);

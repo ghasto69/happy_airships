@@ -1,20 +1,12 @@
 package io.github.ghasto69.happy_airships;
 
+import com.blackgear.vanillabackport.common.level.items.HarnessItem;
 import net.minecraft.core.Registry;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.EntityTypeTags;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.equipment.EquipmentAssets;
-import net.minecraft.world.item.equipment.Equippable;
 
 import java.util.List;
 import java.util.function.Function;
@@ -40,23 +32,10 @@ public class HAItems {
             LIGHT_GRAY_HARNESS = harness(LIGHT_GRAY),
             WHITE_HARNESS = harness(WHITE);
 
-    public static final PropellerItem PROPELLER = register("propeller", PropellerItem::new, new Item.Properties().enchantable(10));
+    public static final PropellerItem PROPELLER = register("propeller", PropellerItem::new, new Item.Properties());
 
     private static Item harness(DyeColor dyeColor) {
-        final var entities = BuiltInRegistries.acquireBootstrapRegistrationLookup(BuiltInRegistries.ENTITY_TYPE);
-        return register(dyeColor.getSerializedName() + "_harness_with_propeller", Item::new, new Item.Properties()
-                .component(
-                        DataComponents.EQUIPPABLE, Equippable
-                                .builder(EquipmentSlot.BODY)
-                                .setEquipSound(SoundEvents.HARNESS_EQUIP)
-                                .setAsset(EquipmentAssets.HARNESSES.get(dyeColor))
-                                .setAllowedEntities(entities.getOrThrow(EntityTypeTags.CAN_EQUIP_HARNESS))
-                                .setEquipOnInteract(true)
-                                .setCanBeSheared(true)
-                                .build()
-                )
-                .enchantable(10)
-        );
+        return register(dyeColor.getSerializedName() + "_harness_with_propeller", HarnessItem::new, new Item.Properties().stacksTo(1));
     }
 
     private static <T extends Item> T register(String name, Function<Item.Properties, T> function, Item.Properties properties) {
@@ -64,7 +43,7 @@ public class HAItems {
         return Registry.register(
                 BuiltInRegistries.ITEM,
                 location,
-                function.apply(properties.setId(ResourceKey.create(Registries.ITEM, location)))
+                function.apply(properties)
         );
     }
 

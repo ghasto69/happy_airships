@@ -1,5 +1,6 @@
 package io.github.ghasto69.happy_airships.fabric.datagen;
 
+import com.blackgear.vanillabackport.core.data.tags.ModItemTags;
 import io.github.ghasto69.happy_airships.HAItemTags;
 import io.github.ghasto69.happy_airships.HAItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -32,7 +33,7 @@ public class HAItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @SuppressWarnings("unchecked")
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        valueLookupBuilder(HAItemTags.HARNESSES_WITH_PROPELLERS)
+        getOrCreateTagBuilder(HAItemTags.HARNESSES_WITH_PROPELLERS)
                 .add(HAItems.RED_HARNESS,
                         HAItems.ORANGE_HARNESS,
                         HAItems.YELLOW_HARNESS,
@@ -49,9 +50,9 @@ public class HAItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         HAItems.GRAY_HARNESS,
                         HAItems.LIGHT_GRAY_HARNESS,
                         HAItems.WHITE_HARNESS);
-        valueLookupBuilder(ItemTags.HARNESSES)
+        getOrCreateTagBuilder(ModItemTags.HARNESSES)
                 .forceAddTag(HAItemTags.HARNESSES_WITH_PROPELLERS);
-        valueLookupBuilder(HAItemTags.SWIFTNESS_ENCHANTABLE)
+        getOrCreateTagBuilder(HAItemTags.SWIFTNESS_ENCHANTABLE)
                 .add(HAItems.PROPELLER)
                 .forceAddTag(HAItemTags.HARNESSES_WITH_PROPELLERS);
     }
