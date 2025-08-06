@@ -4,91 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d07690-8347-4524-84ef-3f0d39147c76" name="Changes" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/GhastHarnessLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/happy_airships.common.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/happy_airships.fabric.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/neoforge/happy_airships.neoforge.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation___fabric__fabric.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___fabric__fabric.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client___neoforge__neoforge.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/040504c8abc5b6997d4ca09aa93cfe584f65c06b" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/040504c8abc5b6997d4ca09aa93cfe584f65c06b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/12adcbd328ff129bef80421b4bd2fbec10753b23" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/12adcbd328ff129bef80421b4bd2fbec10753b23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/3791c88a6ebf3b29df638921c37b7e523e37cd85" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/3791c88a6ebf3b29df638921c37b7e523e37cd85" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/50a19a958bc1358a7699a3f959a8bc0dee165fd2" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/50a19a958bc1358a7699a3f959a8bc0dee165fd2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/a1cd8cfa0f00f945d781b7fdd7e1ad1d78652a30" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/a1cd8cfa0f00f945d781b7fdd7e1ad1d78652a30" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/e05e993909341129a8fbfae25127292206834601" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/e05e993909341129a8fbfae25127292206834601" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/black_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/blue_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/brown_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/cyan_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/gray_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/green_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/light_blue_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/light_gray_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/lime_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/magenta_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/orange_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/pink_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/purple_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/red_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/white_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/assets/happy_airships/items/yellow_harness_with_propeller.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/advancement/happy_airship.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/advancement/happy_airship.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/black_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/black_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/blue_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/blue_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/brown_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/brown_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/cyan_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/cyan_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/gray_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/gray_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/green_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/green_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/light_blue_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/light_blue_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/light_gray_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/light_gray_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/lime_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/lime_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/magenta_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/magenta_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/orange_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/orange_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/pink_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/pink_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/purple_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/purple_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/red_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/red_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/white_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/white_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/yellow_harness_with_propeller.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/happy_airships/recipe/yellow_harness_with_propeller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/item/harnesses.json" beforeDir="false" />
+    <list default="true" id="70d07690-8347-4524-84ef-3f0d39147c76" name="Changes" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerHarnessItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___neoforge__neoforge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/HAItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/HAItems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/EquippableMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HarnessItemMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HappyGhastMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HappyGhastMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HappyGhastRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HappyGhastRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/mixin/HarnessItemMixin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/happy_airships.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/happy_airships.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-05-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2025-08-06-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
@@ -96,55 +31,22 @@
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAAdvancementProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAAdvancementProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAItemTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HAModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HARecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/io/github/ghasto69/happy_airships/fabric/datagen/HARecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/.mixin.out/class/net/minecraft/client/renderer/entity/HappyGhastRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/.mixin.out/class/net/minecraft/world/entity/animal/HappyGhast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/config/fml.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/config/fml.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/config/neoforge-client-1.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/config/neoforge-client-1.toml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/config/neoforge-client.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/config/neoforge-client.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/2025-08-05-7.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM-1/data/neoforge_data_attachments.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM-1/data/neoforge_data_attachments.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM1/data/neoforge_data_attachments.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM1/data/neoforge_data_attachments.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/data/neoforge_data_attachments.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/data/neoforge_data_attachments.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,20 +136,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build happy_airships-1.21.7-fabric-neoforge-template.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.happy_airships-1.21.7-fabric-neoforge-template [genEclipseRuns].executor": "Run",
-    "Gradle.happy_airships-1.21.7-fabric-neoforge-template:fabric [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor": "Debug",
-    "Gradle.happy_airships-1.21.7-fabric-neoforge-template:neoforge [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor": "Debug",
-    "Gradle.happy_airships-1.21.7-fabric-neoforge-template:neoforge [runClient].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1.21.1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build happy_airships-1.21.7-fabric-neoforge-template.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.happy_airships-1.21.7-fabric-neoforge-template [genEclipseRuns].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.happy_airships-1.21.7-fabric-neoforge-template:fabric [:fabric:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.happy_airships-1.21.7-fabric-neoforge-template:neoforge [:neoforge:dev.architectury.transformer.TransformerRuntime.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.happy_airships-1.21.7-fabric-neoforge-template:neoforge [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;1.21.1&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration name="happy_airships-1.21.7-fabric-neoforge-template [genEclipseRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -334,11 +236,36 @@
       <option name="project" value="LOCAL" />
       <updated>1754426310559</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1754487851689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754487851689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerHarnessItem.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/io/github/ghasto69/happy_airships/PropellerItem.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,5 @@
 package io.github.ghasto69.happy_airships;
 
-import com.blackgear.vanillabackport.common.level.items.HarnessItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -32,10 +31,10 @@ public class HAItems {
             LIGHT_GRAY_HARNESS = harness(LIGHT_GRAY),
             WHITE_HARNESS = harness(WHITE);
 
-    public static final PropellerItem PROPELLER = register("propeller", PropellerItem::new, new Item.Properties());
+    public static final PropellerItem PROPELLER = register("propeller", PropellerItem::new, new Item.Properties().stacksTo(1));
 
     private static Item harness(DyeColor dyeColor) {
-        return register(dyeColor.getSerializedName() + "_harness_with_propeller", HarnessItem::new, new Item.Properties().stacksTo(1));
+        return register(dyeColor.getSerializedName() + "_harness_with_propeller", PropellerHarnessItem::new, new Item.Properties().stacksTo(1));
     }
 
     private static <T extends Item> T register(String name, Function<Item.Properties, T> function, Item.Properties properties) {

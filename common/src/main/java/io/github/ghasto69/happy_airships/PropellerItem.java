@@ -98,4 +98,14 @@ public class PropellerItem extends Item {
 
         return InteractionResult.PASS;
     }
+
+    @Override
+    public int getEnchantmentValue() {
+        return 10;
+    }
+
+    @Override
+    public boolean isEnchantable(ItemStack itemStack) {
+        return true;
+    }
 }
