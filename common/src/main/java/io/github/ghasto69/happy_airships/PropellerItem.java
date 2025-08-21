@@ -53,7 +53,7 @@ public class PropellerItem extends Item {
     @Override
     public InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity entity, InteractionHand hand) {
         Level level = player.level();
-        if (!level.isClientSide && hand == InteractionHand.MAIN_HAND) {
+        if (!level.isClientSide() && hand == InteractionHand.MAIN_HAND) {
             if (entity instanceof HappyGhast ghast) {
                 ItemStack handItem = player.getItemInHand(hand);
 

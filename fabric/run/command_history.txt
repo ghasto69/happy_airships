@@ -1,1 +1,2 @@
 /advancement grant @s only happy_airships:husbandry/happy_airship
+/enchant @s happy_airships:swiftness 2

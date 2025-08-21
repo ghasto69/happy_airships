@@ -1,4 +1,4 @@
-version:4440
+version:4540
 ao:true
 biomeBlendRadius:2
 enableVsync:true
@@ -36,6 +36,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 discrete_mouse_scroll:false
+invertXMouse:false
 invertYMouse:false
 realmsNotifications:true
 showSubtitles:false
@@ -44,6 +45,9 @@ touchscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
+toggleAttack:false
+toggleUse:false
+sprintWindow:7
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 hideSplashTexts:false
@@ -86,6 +90,7 @@ syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
 onlyShowSecureChat:false
+saveChatDrafts:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false

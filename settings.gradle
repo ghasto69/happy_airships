@@ -11,4 +11,4 @@ rootProject.name = 'happy_airships'
 
 include 'common'
 include 'fabric'
-include 'neoforge'
+// include 'neoforge'
