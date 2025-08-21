@@ -1,5 +1,6 @@
 package io.github.ghasto69.happy_airships;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 
 public final class ExampleMod {
@@ -10,6 +11,7 @@ public final class ExampleMod {
     }
 
     public static void registriesReady() { // Runs when it is safe to use registries, same as init() on Fabric.
+        HAEntityTypes.register();
         HAItems.register();
         HAEnchantmentEffects.register();
     }

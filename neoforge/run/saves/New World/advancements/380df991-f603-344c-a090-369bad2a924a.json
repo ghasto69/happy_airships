@@ -7,9 +7,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-08-13 16:48:24 +0200",
+      "minecraft:beach": "2025-08-13 16:44:45 +0200",
       "minecraft:plains": "2025-08-04 18:29:45 +0200"
     },
     "done": false
   },
-  "DataVersion": 4438
+  "DataVersion": 4440
 }

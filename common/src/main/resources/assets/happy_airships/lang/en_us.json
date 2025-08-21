@@ -19,5 +19,7 @@
   "item.happy_airships.purple_harness_with_propeller": "Purple Harness With Propeller",
   "item.happy_airships.red_harness_with_propeller": "Red Harness With Propeller",
   "item.happy_airships.white_harness_with_propeller": "White Harness With Propeller",
-  "item.happy_airships.yellow_harness_with_propeller": "Yellow Harness With Propeller"
+  "item.happy_airships.yellow_harness_with_propeller": "Yellow Harness With Propeller",
+  "key.boat_dispense": "Trigger Boat Dispenser",
+  "category.happy_airships": "Happy Airships"
 }

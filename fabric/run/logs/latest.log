@@ -1,5 +1,5 @@
-[13:56:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.0
-[13:56:24] [main/INFO] (FabricLoader) Loading 50 mods:
+[09:02:30] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.17.0
+[09:02:30] [main/INFO] (FabricLoader) Loading 50 mods:
 	- fabric-api 0.131.0+1.21.8
 	- fabric-api-base 0.5.0+cd8c0daa2c
 	- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
@@ -45,174 +45,338 @@
 	- fabric-transfer-api-v1 6.0.6+946bf4c32c
 	- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d12c
 	- fabricloader 0.17.0
-	- generated_20da1d8 1.0.0
-	- happy_airships 1.0.0
+	- generated_c2fff52 1.0.0
+	- happy_airships 1.1.0
 	- java 21
 	- minecraft 1.21.8
 	- mixinextras 0.5.0
-[13:56:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[13:56:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[13:56:24] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[13:56:25] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[13:56:25] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 140 milliseconds
-[13:56:27] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:56:27] [Render thread/INFO] (Minecraft) Setting user: Player935
-[13:56:27] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[13:56:27] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[13:56:28] [Render thread/INFO] (Minecraft) Using optional rendering extensions: 
-[13:56:28] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, generated_20da1d8
-[13:56:28] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
-[13:56:28] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
-[13:56:28] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_crumbling and FS minecraft:core/rendertype_crumbling. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_entity_shadow and FS minecraft:core/rendertype_entity_shadow. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request.
+[09:02:30] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[09:02:30] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[09:02:30] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[09:02:30] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[09:02:31] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 200 milliseconds
+[09:02:34] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:02:34] [Render thread/INFO] (Minecraft) Setting user: Player773
+[09:02:34] [Download-1/WARN] (Minecraft) Couldn't look up profile properties for b7a940e4-3cde-3275-9c73-2f71fe593c98
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://sessionserver.mojang.com/session/minecraft/profile/b7a940e43cde32759c732f71fe593c98?unsigned=false due to sessionserver.mojang.com
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.58.jar:?]
+	at knot/net.minecraft.client.Minecraft.method_53464(Minecraft.java:459) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 8 more
+[09:02:34] [Yggdrasil Key Fetcher/ERROR] (Minecraft) Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[09:02:34] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[09:02:35] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[09:02:35] [Render thread/INFO] (Minecraft) Using optional rendering extensions: 
+[09:02:36] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, generated_c2fff52
+[09:02:36] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[09:02:36] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[09:02:36] [Worker-Main-6/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_entity_shadow and FS minecraft:core/rendertype_entity_shadow. Log output: WARNING: Could not find vertex shader attribute 'UV1' to match BindAttributeLocation request.
 WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_item_entity_translucent_cull and FS minecraft:core/rendertype_item_entity_translucent_cull. Log output: WARNING: Output of vertex shader 'texCoord1' not read by fragment shader
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_see_through and FS minecraft:core/rendertype_text_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_intensity_see_through and FS minecraft:core/rendertype_text_intensity_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_background_see_through and FS minecraft:core/rendertype_text_background_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_crumbling and FS minecraft:core/rendertype_crumbling. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_entity_alpha and FS minecraft:core/rendertype_entity_alpha. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_entity_alpha and FS minecraft:core/rendertype_entity_alpha. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Output of vertex shader 'texCoord1' not read by fragment shader
 WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_item_entity_translucent_cull and FS minecraft:core/rendertype_item_entity_translucent_cull. Log output: WARNING: Output of vertex shader 'texCoord1' not read by fragment shader
+WARNING: Output of vertex shader 'texCoord2' not read by fragment shader
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
 WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_intensity_see_through and FS minecraft:core/rendertype_text_intensity_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_translucent_moving_block and FS minecraft:core/rendertype_translucent_moving_block. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
 WARNING: Output of vertex shader 'overlayColor' not read by fragment shader
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_see_through and FS minecraft:core/rendertype_text_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_translucent_moving_block and FS minecraft:core/rendertype_translucent_moving_block. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
+[09:02:37] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
 
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/terrain and FS minecraft:core/terrain. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_beacon_beam and FS minecraft:core/rendertype_beacon_beam. Log output: WARNING: Could not find vertex shader attribute 'Normal' to match BindAttributeLocation request.
-WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/rendertype_text_background_see_through and FS minecraft:core/rendertype_text_background_see_through. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) Info log when linking program containing VS minecraft:core/entity and FS minecraft:core/entity. Log output: WARNING: Could not find vertex shader attribute 'UV2' to match BindAttributeLocation request.
-
-[13:56:29] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Pro Speakers
-[13:56:29] [Render thread/INFO] (Minecraft) Sound engine started
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13:56:29] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[13:56:33] [Render thread/WARN] (Minecraft) Missing data pack generated_f48ab24
-[13:56:33] [Render thread/INFO] (Minecraft) Found new data pack generated_20da1d8, loading it automatically
-[13:56:33] [Render thread/INFO] (Minecraft) Loaded 1424 recipes
-[13:56:33] [Render thread/INFO] (Minecraft) Loaded 1538 advancements
-[13:56:33] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 541.3 μs
-[13:56:33] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
-[13:56:33] [Server thread/INFO] (Minecraft) Generating keypair
-[13:56:33] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[13:56:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:56:34] [Render thread/INFO] (Minecraft) Time elapsed: 479 ms
-[13:56:34] [Server thread/WARN] (TranslationConventionLogWarnings) 
+[09:02:37] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Pro Speakers
+[09:02:37] [Render thread/INFO] (Minecraft) Sound engine started
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:02:37] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[09:02:40] [Render thread/WARN] (Minecraft) Missing data pack generated_41ca900
+[09:02:40] [Render thread/INFO] (Minecraft) Found new data pack generated_c2fff52, loading it automatically
+[09:02:41] [Render thread/INFO] (Minecraft) Loaded 1424 recipes
+[09:02:41] [Render thread/INFO] (Minecraft) Loaded 1538 advancements
+[09:02:41] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 673.1 μs
+[09:02:41] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[09:02:41] [Server thread/INFO] (Minecraft) Generating keypair
+[09:02:41] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[09:02:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:02:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:02:42] [Render thread/INFO] (Minecraft) Time elapsed: 805 ms
+[09:02:42] [Server thread/WARN] (TranslationConventionLogWarnings) 
 	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
 	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
 	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
 	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
 	Default is `SHORT`.
 
-[13:56:34] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[13:56:34] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[13:56:34] [Server thread/INFO] (Minecraft) Player935[local:E:37624e0e] logged in with entity id 48 at (57.5, 76.0, -3.5)
-[13:56:34] [Server thread/INFO] (Minecraft) Player935 joined the game
-[13:56:34] [Render thread/INFO] (Minecraft) Loaded 2 advancements
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[13:56:34] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[13:56:35] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[13:56:35] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[13:56:36] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:56:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:56:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:56:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:56:40] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[13:56:40] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
-[13:56:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:56:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:24] [Render thread/INFO] (Minecraft) Loaded 18 advancements
-[13:57:33] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:57:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:57:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:57:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:37] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:57:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:57:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:57:37] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:38] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:57:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:57:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:57:38] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:47] [Server thread/INFO] (Minecraft) Player935 has made the advancement [Happy Airship]
-[13:57:47] [Server thread/INFO] (Minecraft) [Player935: Granted the advancement [Happy Airship] to Player935]
-[13:57:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Player935 has made the advancement [Happy Airship]
-[13:57:47] [Render thread/INFO] (Minecraft) [System] [CHAT] Granted the advancement [Happy Airship] to Player935
-[13:57:47] [Render thread/INFO] (Minecraft) Loaded 21 advancements
-[13:57:49] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[13:57:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:57:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:57:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:54] [Render thread/INFO] (Minecraft) Stopping!
-[13:57:55] [Server thread/INFO] (Minecraft) Player935 lost connection: Disconnected
-[13:57:55] [Server thread/INFO] (Minecraft) Player935 left the game
-[13:57:55] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[13:57:55] [Server thread/INFO] (Minecraft) Stopping server
-[13:57:55] [Server thread/INFO] (Minecraft) Saving players
-[13:57:55] [Server thread/INFO] (Minecraft) Saving worlds
-[13:57:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13:57:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13:57:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13:57:55] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[13:57:55] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:57:55] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:57:55] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[09:02:42] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[09:02:42] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[09:02:43] [Server thread/INFO] (Minecraft) Player773[local:E:678bf306] logged in with entity id 10 at (-365.3724156120085, 72.94538675183544, -261.874506964187)
+[09:02:43] [Server thread/INFO] (Minecraft) Player773 joined the game
+[09:02:43] [Render thread/WARN] (Minecraft) Ignoring chat session from Player773 due to missing Services public key
+[09:02:43] [Render thread/WARN] (Minecraft) Received passengers for unknown entity
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[09:02:43] [Render thread/INFO] (Minecraft) Loaded 18 advancements
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[09:02:43] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[09:02:44] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[09:02:45] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
+[09:02:58] [Render thread/INFO] (Minecraft) Loaded 19 advancements
+[09:03:13] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:14] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:14] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:15] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:15] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:15] [Server thread/ERROR] (Minecraft) Error executing task on Server
+java.lang.IllegalArgumentException: Bound must be positive
+	at knot/net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.AbstractDispenserBoatEntity.dispense(AbstractDispenserBoatEntity.java:196) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.dispenser_boat.BoatDispense.handleC2S(BoatDispense.java:26) ~[14892503842572649150.jar:?]
+	at knot/io.github.ghasto69.happy_airships.fabric.ExampleModFabric.lambda$onInitialize$0(ExampleModFabric.java:23) ~[main/:?]
+	at knot/net.minecraft.server.TickTask.run(TickTask.java:18) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:164) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:883) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:179) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:138) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:865) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:859) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:147) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:823) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:830) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:713) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-bbdd70ac6e-1.21.8-loom.mappings.1_21_8.layered+hash.40359-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[09:03:28] [Server thread/INFO] (Minecraft) Player773 has made the advancement [Happy Airship]
+[09:03:28] [Render thread/INFO] (Minecraft) [System] [CHAT] Player773 has made the advancement [Happy Airship]
+[09:03:28] [Render thread/INFO] (Minecraft) Loaded 22 advancements
+[09:04:40] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[09:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09:04:40] [Server thread/INFO] (Minecraft) Player773 lost connection: Disconnected
+[09:04:40] [Server thread/INFO] (Minecraft) Player773 left the game
+[09:04:40] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[09:04:40] [Server thread/INFO] (Minecraft) Stopping server
+[09:04:40] [Server thread/INFO] (Minecraft) Saving players
+[09:04:40] [Server thread/INFO] (Minecraft) Saving worlds
+[09:04:40] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09:04:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09:04:41] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[09:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:04:41] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[10:15:51] [Render thread/INFO] (Minecraft) Stopping!

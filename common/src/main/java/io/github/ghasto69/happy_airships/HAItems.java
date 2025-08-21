@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.BoatItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -41,6 +42,9 @@ public class HAItems {
             WHITE_HARNESS = harness(WHITE);
 
     public static final PropellerItem PROPELLER = register("propeller", PropellerItem::new, new Item.Properties().enchantable(10));
+
+    public static final BoatItem
+            OAK_DISPENSER_BOAT = register("oak_dispenser_boat", p -> new BoatItem(HAEntityTypes.OAK_DISPENSER_BOAT, p), new Item.Properties());
 
     private static Item harness(DyeColor dyeColor) {
         final var entities = BuiltInRegistries.acquireBootstrapRegistrationLookup(BuiltInRegistries.ENTITY_TYPE);

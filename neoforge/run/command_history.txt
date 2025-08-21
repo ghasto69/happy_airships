@@ -3,3 +3,6 @@
 /xp set @s 1000000 points
 /xp set @s 10 levels
 /enchant @s happy_airships:swiftness 2
+/give @s happy_airships:oak_dispenser_boat
+/enchant @s happy_airships:swiftness 2
+/attribute @s minecraft:camera_distance base set 40
