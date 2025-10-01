@@ -1,7 +1,7 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
 [Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 117 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 119 classpath jar(s):
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.2/647622ac4163aad5ed5f79ccb532e31225562aa/fabric-loader-0.17.2.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/26.0.2/c7ce3cdeda3d18909368dfe5977332dfad326c6d/annotations-26.0.2.jar
@@ -23,7 +23,7 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.1-jre/852f8b363da0111e819460021ca693cacca3e8db/guava-33.3.1-jre.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/76.1/215f3a8e936d4069344bd75f2b1368fd58112894/icu4j-76.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/msal4j/1.17.2/a6211e3d71d0388929babaa0ff0951b30d001852/msal4j-1.17.2.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/6.0.59/4da2f9084d1461433f39c3f72e5abbabf01d9c8f/authlib-6.0.59.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/7.0.61/efee1e6b54e863108576eb3b3ae71144626aaefc/authlib-7.0.61.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.mojang/blocklist/1.0.10/5c685c5ffa94c4cd39496c7184c1d122e515ecef/blocklist-1.0.10.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.mojang/brigadier/1.3.10/d15b53a14cf20fdcaa98f731af5dda654452c010/brigadier-1.3.10.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/8.0.16/67d4de6d7f95d89bcf5862995fb854ebaec02a34/datafixerupper-8.0.16.jar
@@ -39,6 +39,7 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.17.0/ddcc8433eb019fb48fe25207c0278143f3e1d7e2/commons-io-2.17.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.3.4/b9fc14968d63a8b8a8a2c1885fe3e90564239708/commons-logging-1.3.4.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.118.Final/7022990af1e0d449f9d5322035899745e19735c5/netty-buffer-4.1.118.Final.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.118.Final/eda08a71294afe78c779b85fd696bc13491507a8/netty-codec-http-4.1.118.Final.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.118.Final/307f665c08ce57333121de4f460479fc0c3c94d4/netty-codec-4.1.118.Final.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.118.Final/4bb0f9899146484fa89f7b9bc27389d5b8e2ecde/netty-common-4.1.118.Final.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.118.Final/30ebb05b6b0fb071dbfcf713017c4a767a97bb9b/netty-handler-4.1.118.Final.jar
@@ -71,63 +72,64 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.8.0/4b986a99445e49ea5fbf5d149c4b63f6ed6c6780/lz4-java-1.8.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-503b555a3d/25w34b-loom.mappings.25w34b.layered+hash.40359-v2/minecraft-merged-503b555a3d-25w34b-loom.mappings.25w34b.layered+hash.40359-v2.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-42d054c137/1.21.9-loom.mappings.1_21_9.layered+hash.40359-v2/minecraft-merged-42d054c137-1.21.9-loom.mappings.1_21_9.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.118.Final/7e6b89e3746acb7cf6f0aad993bbd058fc6d912e/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.118.Final/82f94d0a9d837f6b6a580379373310ff7288c0f8/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-cfff4ee0/0.132.1+1.21.9/fabric-api-cfff4ee0-0.132.1+1.21.9.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-cfff4ee0/6.0.10+e35f037eaa/fabric-transfer-api-v1-cfff4ee0-6.0.10+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-cfff4ee0/1.6.103+d1768215aa/fabric-api-lookup-api-v1-cfff4ee0-1.6.103+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-cfff4ee0/2.3.3+d1768215aa/fabric-command-api-v2-cfff4ee0-2.3.3+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-cfff4ee0/10.1.1+f2ec8b18aa/fabric-content-registries-v0-cfff4ee0-10.1.1+f2ec8b18aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-cfff4ee0/23.2.10+d96250a9aa/fabric-data-generation-api-v1-cfff4ee0-23.2.10+d96250a9aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-cfff4ee0/2.1.43+7f945d5baa/fabric-convention-tags-v1-cfff4ee0-2.1.43+7f945d5baa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v2-cfff4ee0/2.15.8+d96250a9aa/fabric-convention-tags-v2-cfff4ee0-2.15.8+d96250a9aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-cfff4ee0/1.8.16+e35f037eaa/fabric-data-attachment-api-v1-cfff4ee0-1.8.16+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-cfff4ee0/2.1.5+e35f037eaa/fabric-entity-events-v1-cfff4ee0-2.1.5+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-cfff4ee0/4.0.27+e35f037eaa/fabric-events-interaction-v0-cfff4ee0-4.0.27+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-cfff4ee0/3.1.14+d1768215aa/fabric-gametest-api-v1-cfff4ee0-3.1.14+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-cfff4ee0/11.5.3+f3ad1143aa/fabric-item-api-v1-cfff4ee0-11.5.3+f3ad1143aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-cfff4ee0/4.2.18+f3ad1143aa/fabric-item-group-api-v1-cfff4ee0-4.2.18+f3ad1143aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-cfff4ee0/5.2.11+e35f037eaa/fabric-model-loading-api-v1-cfff4ee0-5.2.11+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-cfff4ee0/4.0.8+e35f037eaa/fabric-renderer-indigo-cfff4ee0-4.0.8+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-cfff4ee0/7.0.8+e35f037eaa/fabric-renderer-api-v1-cfff4ee0-7.0.8+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-cfff4ee0/14.0.3+e35f037eaa/fabric-rendering-v1-cfff4ee0-14.0.3+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-cfff4ee0/2.6.6+d1768215aa/fabric-lifecycle-events-v1-cfff4ee0-2.6.6+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-cfff4ee0/3.0.60+3f89f5a5aa/fabric-loot-api-v2-cfff4ee0-3.0.60+3f89f5a5aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v3-cfff4ee0/2.0.7+d1768215aa/fabric-loot-api-v3-cfff4ee0-2.0.7+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-cfff4ee0/6.1.4+d1768215aa/fabric-message-api-v1-cfff4ee0-6.1.4+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-cfff4ee0/4.1.12+98883a83aa/fabric-particles-v1-cfff4ee0-4.1.12+98883a83aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-cfff4ee0/8.1.18+d1768215aa/fabric-recipe-api-v1-cfff4ee0-8.1.18+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-cfff4ee0/21.1.12+e35f037eaa/fabric-object-builder-api-v1-cfff4ee0-21.1.12+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-cfff4ee0/1.3.140+d1768215aa/fabric-screen-handler-api-v1-cfff4ee0-1.3.140+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-cfff4ee0/6.1.31+d1768215aa/fabric-registry-sync-v0-cfff4ee0-6.1.31+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-cfff4ee0/5.0.5+e35f037eaa/fabric-networking-api-v1-cfff4ee0-5.0.5+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-cfff4ee0/3.1.34+98883a83aa/fabric-rendering-fluids-v1-cfff4ee0-3.1.34+98883a83aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-cfff4ee0/1.2.6+d1768215aa/fabric-tag-api-v1-cfff4ee0-1.2.6+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-cfff4ee0/3.1.16+e35f037eaa/fabric-resource-loader-v0-cfff4ee0-3.1.16+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-cfff4ee0/2.1.3+d1768215aa/fabric-screen-api-v1-cfff4ee0-2.1.3+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-cfff4ee0/0.5.1+f3ad1143aa/fabric-api-base-cfff4ee0-0.5.1+f3ad1143aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-cfff4ee0/16.0.13+d1768215aa/fabric-biome-api-v1-cfff4ee0-16.0.13+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-cfff4ee0/1.1.5+d1768215aa/fabric-block-api-v1-cfff4ee0-1.1.5+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-cfff4ee0/1.0.33+d1768215aa/fabric-block-view-api-v2-cfff4ee0-1.0.33+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-cfff4ee0/4.2.8+e35f037eaa/fabric-client-gametest-api-v1-cfff4ee0-4.2.8+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-cfff4ee0/0.3.17+d1768215aa/fabric-crash-report-info-v1-cfff4ee0-0.3.17+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-cfff4ee0/4.0.21+d1768215aa/fabric-dimensions-v1-cfff4ee0-4.0.21+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-cfff4ee0/1.0.76+e35f037eaa/fabric-game-rule-api-v1-cfff4ee0-1.0.76+e35f037eaa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-cfff4ee0/1.0.67+d1768215aa/fabric-key-binding-api-v1-cfff4ee0-1.0.67+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-cfff4ee0/5.0.27+f3ad1143aa/fabric-resource-conditions-api-v1-cfff4ee0-5.0.27+f3ad1143aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-serialization-api-v1-cfff4ee0/1.0.0+d857c976aa/fabric-serialization-api-v1-cfff4ee0-1.0.0+d857c976aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-cfff4ee0/1.0.44+d1768215aa/fabric-sound-api-v1-cfff4ee0-1.0.44+d1768215aa.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-cfff4ee0/6.4.4+e35f037eaa/fabric-transitive-access-wideners-v1-cfff4ee0-6.4.4+e35f037eaa.jar
-[Architectury Transformer] Read classpath in 949.3 ms
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-060f5b94/0.133.14+1.21.9/fabric-api-060f5b94-0.133.14+1.21.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-060f5b94/6.0.15+79ec2c1287/fabric-transfer-api-v1-060f5b94-6.0.15+79ec2c1287.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-060f5b94/1.6.106+d176821587/fabric-api-lookup-api-v1-060f5b94-1.6.106+d176821587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-060f5b94/2.3.7+328a75ba87/fabric-command-api-v2-060f5b94-2.3.7+328a75ba87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-060f5b94/10.2.3+b6a2426487/fabric-content-registries-v0-060f5b94-10.2.3+b6a2426487.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-060f5b94/23.2.21+d8b85ef187/fabric-data-generation-api-v1-060f5b94-23.2.21+d8b85ef187.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-060f5b94/2.1.47+7f945d5b87/fabric-convention-tags-v1-060f5b94-2.1.47+7f945d5b87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v2-060f5b94/2.15.12+3154c1c887/fabric-convention-tags-v2-060f5b94-2.15.12+3154c1c887.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-060f5b94/1.8.27+9bce411b87/fabric-data-attachment-api-v1-060f5b94-1.8.27+9bce411b87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-060f5b94/2.1.12+14b92d8987/fabric-entity-events-v1-060f5b94-2.1.12+14b92d8987.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-060f5b94/4.0.34+5ba2171287/fabric-events-interaction-v0-060f5b94-4.0.34+5ba2171287.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-060f5b94/3.1.18+33df5e6e87/fabric-gametest-api-v1-060f5b94-3.1.18+33df5e6e87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-060f5b94/11.5.8+9bce411b87/fabric-item-api-v1-060f5b94-11.5.8+9bce411b87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-060f5b94/4.2.24+86b3ae5787/fabric-item-group-api-v1-060f5b94-4.2.24+86b3ae5787.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-060f5b94/6.0.0+3ffd6ef087/fabric-model-loading-api-v1-060f5b94-6.0.0+3ffd6ef087.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-060f5b94/4.0.19+328a75ba87/fabric-renderer-indigo-060f5b94-4.0.19+328a75ba87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-060f5b94/7.1.1+328a75ba87/fabric-renderer-api-v1-060f5b94-7.1.1+328a75ba87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-060f5b94/16.0.1+328a75ba87/fabric-rendering-v1-060f5b94-16.0.1+328a75ba87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-060f5b94/2.6.9+33df5e6e87/fabric-lifecycle-events-v1-060f5b94-2.6.9+33df5e6e87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-060f5b94/3.0.64+3f89f5a587/fabric-loot-api-v2-060f5b94-3.0.64+3f89f5a587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v3-060f5b94/2.0.11+d176821587/fabric-loot-api-v3-060f5b94-2.0.11+d176821587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-060f5b94/6.1.7+3154c1c887/fabric-message-api-v1-060f5b94-6.1.7+3154c1c887.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-060f5b94/4.2.1+ed8c182687/fabric-particles-v1-060f5b94-4.2.1+ed8c182687.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-060f5b94/8.1.25+d176821587/fabric-recipe-api-v1-060f5b94-8.1.25+d176821587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-060f5b94/21.1.23+9bce411b87/fabric-object-builder-api-v1-060f5b94-21.1.23+9bce411b87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-060f5b94/1.3.149+d176821587/fabric-screen-handler-api-v1-060f5b94-1.3.149+d176821587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-060f5b94/6.1.40+679c8c5c87/fabric-registry-sync-v0-060f5b94-6.1.40+679c8c5c87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-060f5b94/5.0.12+86b3ae5787/fabric-networking-api-v1-060f5b94-5.0.12+86b3ae5787.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-060f5b94/3.1.38+86b3ae5787/fabric-rendering-fluids-v1-060f5b94-3.1.38+86b3ae5787.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-060f5b94/1.2.10+2fa446b287/fabric-tag-api-v1-060f5b94-1.2.10+2fa446b287.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-060f5b94/3.2.2+3388a3b287/fabric-resource-loader-v0-060f5b94-3.2.2+3388a3b287.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v1-060f5b94/1.0.2+225bca4087/fabric-resource-loader-v1-060f5b94-1.0.2+225bca4087.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-060f5b94/3.0.3+86b3ae5787/fabric-screen-api-v1-060f5b94-3.0.3+86b3ae5787.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-060f5b94/1.0.0+14b92d8987/fabric-api-base-060f5b94-1.0.0+14b92d8987.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-060f5b94/16.0.15+14b92d8987/fabric-biome-api-v1-060f5b94-16.0.15+14b92d8987.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-060f5b94/1.1.5+d176821587/fabric-block-api-v1-060f5b94-1.1.5+d176821587.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-060f5b94/1.0.34+e4fd1b9287/fabric-block-view-api-v2-060f5b94-1.0.34+e4fd1b9287.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-060f5b94/4.2.13+14b92d8987/fabric-client-gametest-api-v1-060f5b94-4.2.13+14b92d8987.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-060f5b94/0.3.18+33df5e6e87/fabric-crash-report-info-v1-060f5b94-0.3.18+33df5e6e87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-060f5b94/4.0.22+38b9cc1987/fabric-dimensions-v1-060f5b94-4.0.22+38b9cc1987.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-060f5b94/1.1.0+492293e687/fabric-game-rule-api-v1-060f5b94-1.1.0+492293e687.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-060f5b94/1.1.1+b3ba9c4887/fabric-key-binding-api-v1-060f5b94-1.1.1+b3ba9c4887.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-060f5b94/5.0.28+33df5e6e87/fabric-resource-conditions-api-v1-060f5b94-5.0.28+33df5e6e87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-serialization-api-v1-060f5b94/1.0.0+d857c97687/fabric-serialization-api-v1-060f5b94-1.0.0+d857c97687.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-060f5b94/1.0.45+328a75ba87/fabric-sound-api-v1-060f5b94-1.0.45+328a75ba87.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-060f5b94/6.5.3+41eb434387/fabric-transitive-access-wideners-v1-060f5b94-6.5.3+41eb434387.jar
+[Architectury Transformer] Read classpath in 965.4 ms
 [Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4966428831147305393.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@55040f2f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@64c87930
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@400cff1a
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@275710fc
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@525f1e4e
-[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4966428831147305393.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@525f1e4e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@75f9eccc
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@52aa2946
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4de5031f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@67e2d983
+[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HappyGhastMixin with maxs=true frames=true
@@ -144,41 +146,41 @@
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /happy_airships-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /happy_airships.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4966428831147305393.jar
+[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar
 [Architectury Transformer] Listening at /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4966428831147305393.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
+[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
 [Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/fabric/build/classes/java/main] contains packages: io.github.ghasto69.happy_airships.fabric.datagen, io.github.ghasto69.happy_airships.fabric, io.github.ghasto69.happy_airships.fabric.client
 [Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/fabric/build/resources/main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 1.402 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 774.4 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 3.064 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 756.7 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 866.1 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 611.7 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 206.5 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 181.2 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 227.3 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 193.0 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 990.0 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 873.1 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItemTags.class to io/github/ghasto69/happy_airships/HAItemTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 332.4 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 305.8 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class to io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 404.5 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 431.5 μs
