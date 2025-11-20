@@ -25,6 +25,6 @@ public abstract class HappyGhastRendererMixin extends AgeableMobRenderer<HappyGh
             at = @At("TAIL")
     )
     private void injectRenderLayer(EntityRendererProvider.Context context, CallbackInfo ci) {
-        this.addLayer(new PropellerLayer<>(this));
+        this.addLayer(new PropellerLayer(this, context.getModelSet()));
     }
 }

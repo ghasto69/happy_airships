@@ -53,4 +53,6 @@ shadowJar {
 
 remapJar {
     inputFile.set shadowJar.archiveFile
+    archiveBaseName.set("${rootProject.archives_name}-${project.name}")
+    archiveVersion.set("${rootProject.mod_version}+${rootProject.minecraft_version}")
 }

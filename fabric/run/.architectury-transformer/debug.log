@@ -1,16 +1,16 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 119 classpath jar(s):
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.2/647622ac4163aad5ed5f79ccb532e31225562aa/fabric-loader-0.17.2.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.3/deafaba5de4d9bbd76105783ff4e21ce0773874f/fabric-loader-0.17.3.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/26.0.2/c7ce3cdeda3d18909368dfe5977332dfad326c6d/annotations-26.0.2.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.8/dc19ecb3f7889b7860697215cae99c0f9b6f6b4b/asm-9.8.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.8/b9747a320844b6cb1eacd90d8ecfd260a16c01d3/asm-analysis-9.8.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.8/36e4d212970388e5bd2c5180292012502df461bb/asm-commons-9.8.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.8/18419ca5b77a2f81097c741e7872e6ab8d2f40d/asm-tree-9.8.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.8/395f1c1f035258511f27bc9b2583d76e4b143f59/asm-util-9.8.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/3e535042688d1265447e52ad86950b7d9678a5fa/sponge-mixin-0.16.3+mixin.0.8.7.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.9/c29635c8a7afa03d74b33c1884df8abb2b3f3dcc/asm-9.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.9/bf4fa6e66638851c1cd22c2caea0c3ee5d5f437/asm-analysis-9.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.9/db9165a3bf908ded6b08612d583a15d1d0c7bda0/asm-commons-9.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.9/f8de6eead6d24dd0f45bd065bbe112b2cda6ea21/asm-tree-9.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.9/42fdfc0508b43807c8078d6e82ecff2ce2112ae8/asm-util-9.9.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-fabric/0.5.0/91a83dfb7abd320f6236bd1fcf5c0ff143d59a13/mixinextras-fabric-0.5.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.1/1227f9e0666314f9de41477e3ec277e542ed7f7b/java-objc-bridge-1.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.13.4/858c6cc78e1f08a885b1613e1d817c829df70a6e/jackson-annotations-2.13.4.jar
@@ -72,115 +72,343 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.8.0/4b986a99445e49ea5fbf5d149c4b63f6ed6c6780/lz4-java-1.8.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-42d054c137/1.21.9-loom.mappings.1_21_9.layered+hash.40359-v2/minecraft-merged-42d054c137-1.21.9-loom.mappings.1_21_9.layered+hash.40359-v2.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-42d054c137/1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2/minecraft-merged-42d054c137-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.118.Final/7e6b89e3746acb7cf6f0aad993bbd058fc6d912e/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.118.Final/82f94d0a9d837f6b6a580379373310ff7288c0f8/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-060f5b94/0.133.14+1.21.9/fabric-api-060f5b94-0.133.14+1.21.9.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-060f5b94/6.0.15+79ec2c1287/fabric-transfer-api-v1-060f5b94-6.0.15+79ec2c1287.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-060f5b94/1.6.106+d176821587/fabric-api-lookup-api-v1-060f5b94-1.6.106+d176821587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-060f5b94/2.3.7+328a75ba87/fabric-command-api-v2-060f5b94-2.3.7+328a75ba87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-060f5b94/10.2.3+b6a2426487/fabric-content-registries-v0-060f5b94-10.2.3+b6a2426487.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-060f5b94/23.2.21+d8b85ef187/fabric-data-generation-api-v1-060f5b94-23.2.21+d8b85ef187.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-060f5b94/2.1.47+7f945d5b87/fabric-convention-tags-v1-060f5b94-2.1.47+7f945d5b87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v2-060f5b94/2.15.12+3154c1c887/fabric-convention-tags-v2-060f5b94-2.15.12+3154c1c887.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-060f5b94/1.8.27+9bce411b87/fabric-data-attachment-api-v1-060f5b94-1.8.27+9bce411b87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-060f5b94/2.1.12+14b92d8987/fabric-entity-events-v1-060f5b94-2.1.12+14b92d8987.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-060f5b94/4.0.34+5ba2171287/fabric-events-interaction-v0-060f5b94-4.0.34+5ba2171287.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-060f5b94/3.1.18+33df5e6e87/fabric-gametest-api-v1-060f5b94-3.1.18+33df5e6e87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-060f5b94/11.5.8+9bce411b87/fabric-item-api-v1-060f5b94-11.5.8+9bce411b87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-060f5b94/4.2.24+86b3ae5787/fabric-item-group-api-v1-060f5b94-4.2.24+86b3ae5787.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-060f5b94/6.0.0+3ffd6ef087/fabric-model-loading-api-v1-060f5b94-6.0.0+3ffd6ef087.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-060f5b94/4.0.19+328a75ba87/fabric-renderer-indigo-060f5b94-4.0.19+328a75ba87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-060f5b94/7.1.1+328a75ba87/fabric-renderer-api-v1-060f5b94-7.1.1+328a75ba87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-060f5b94/16.0.1+328a75ba87/fabric-rendering-v1-060f5b94-16.0.1+328a75ba87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-060f5b94/2.6.9+33df5e6e87/fabric-lifecycle-events-v1-060f5b94-2.6.9+33df5e6e87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-060f5b94/3.0.64+3f89f5a587/fabric-loot-api-v2-060f5b94-3.0.64+3f89f5a587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v3-060f5b94/2.0.11+d176821587/fabric-loot-api-v3-060f5b94-2.0.11+d176821587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-060f5b94/6.1.7+3154c1c887/fabric-message-api-v1-060f5b94-6.1.7+3154c1c887.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-060f5b94/4.2.1+ed8c182687/fabric-particles-v1-060f5b94-4.2.1+ed8c182687.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-060f5b94/8.1.25+d176821587/fabric-recipe-api-v1-060f5b94-8.1.25+d176821587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-060f5b94/21.1.23+9bce411b87/fabric-object-builder-api-v1-060f5b94-21.1.23+9bce411b87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-060f5b94/1.3.149+d176821587/fabric-screen-handler-api-v1-060f5b94-1.3.149+d176821587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-060f5b94/6.1.40+679c8c5c87/fabric-registry-sync-v0-060f5b94-6.1.40+679c8c5c87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-060f5b94/5.0.12+86b3ae5787/fabric-networking-api-v1-060f5b94-5.0.12+86b3ae5787.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-060f5b94/3.1.38+86b3ae5787/fabric-rendering-fluids-v1-060f5b94-3.1.38+86b3ae5787.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-060f5b94/1.2.10+2fa446b287/fabric-tag-api-v1-060f5b94-1.2.10+2fa446b287.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-060f5b94/3.2.2+3388a3b287/fabric-resource-loader-v0-060f5b94-3.2.2+3388a3b287.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v1-060f5b94/1.0.2+225bca4087/fabric-resource-loader-v1-060f5b94-1.0.2+225bca4087.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-060f5b94/3.0.3+86b3ae5787/fabric-screen-api-v1-060f5b94-3.0.3+86b3ae5787.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-060f5b94/1.0.0+14b92d8987/fabric-api-base-060f5b94-1.0.0+14b92d8987.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-060f5b94/16.0.15+14b92d8987/fabric-biome-api-v1-060f5b94-16.0.15+14b92d8987.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-060f5b94/1.1.5+d176821587/fabric-block-api-v1-060f5b94-1.1.5+d176821587.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-060f5b94/1.0.34+e4fd1b9287/fabric-block-view-api-v2-060f5b94-1.0.34+e4fd1b9287.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-060f5b94/4.2.13+14b92d8987/fabric-client-gametest-api-v1-060f5b94-4.2.13+14b92d8987.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-060f5b94/0.3.18+33df5e6e87/fabric-crash-report-info-v1-060f5b94-0.3.18+33df5e6e87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-060f5b94/4.0.22+38b9cc1987/fabric-dimensions-v1-060f5b94-4.0.22+38b9cc1987.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-060f5b94/1.1.0+492293e687/fabric-game-rule-api-v1-060f5b94-1.1.0+492293e687.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-060f5b94/1.1.1+b3ba9c4887/fabric-key-binding-api-v1-060f5b94-1.1.1+b3ba9c4887.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-060f5b94/5.0.28+33df5e6e87/fabric-resource-conditions-api-v1-060f5b94-5.0.28+33df5e6e87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-serialization-api-v1-060f5b94/1.0.0+d857c97687/fabric-serialization-api-v1-060f5b94-1.0.0+d857c97687.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-060f5b94/1.0.45+328a75ba87/fabric-sound-api-v1-060f5b94-1.0.45+328a75ba87.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-060f5b94/6.5.3+41eb434387/fabric-transitive-access-wideners-v1-060f5b94-6.5.3+41eb434387.jar
-[Architectury Transformer] Read classpath in 965.4 ms
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@525f1e4e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@75f9eccc
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@52aa2946
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4de5031f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@67e2d983
-[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-cdbb5210/0.136.0+1.21.10/fabric-api-cdbb5210-0.136.0+1.21.10.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transfer-api-v1-cdbb5210/6.0.15+79ec2c126f/fabric-transfer-api-v1-cdbb5210-6.0.15+79ec2c126f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-lookup-api-v1-cdbb5210/1.6.106+d17682156f/fabric-api-lookup-api-v1-cdbb5210-1.6.106+d17682156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-command-api-v2-cdbb5210/2.4.0+c0ab2d5d6f/fabric-command-api-v2-cdbb5210-2.4.0+c0ab2d5d6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-content-registries-v0-cdbb5210/10.2.4+b6a242646f/fabric-content-registries-v0-cdbb5210-10.2.4+b6a242646f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-generation-api-v1-cdbb5210/23.2.24+d8b85ef16f/fabric-data-generation-api-v1-cdbb5210-23.2.24+d8b85ef16f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v1-cdbb5210/2.1.48+7f945d5b6f/fabric-convention-tags-v1-cdbb5210-2.1.48+7f945d5b6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-convention-tags-v2-cdbb5210/2.16.0+552403eb6f/fabric-convention-tags-v2-cdbb5210-2.16.0+552403eb6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-data-attachment-api-v1-cdbb5210/1.8.30+68e881bd6f/fabric-data-attachment-api-v1-cdbb5210-1.8.30+68e881bd6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-entity-events-v1-cdbb5210/2.1.13+fde3702c6f/fabric-entity-events-v1-cdbb5210-2.1.13+fde3702c6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-events-interaction-v0-cdbb5210/4.0.36+5ba217126f/fabric-events-interaction-v0-cdbb5210-4.0.36+5ba217126f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-gametest-api-v1-cdbb5210/3.1.19+33df5e6e6f/fabric-gametest-api-v1-cdbb5210-3.1.19+33df5e6e6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-api-v1-cdbb5210/11.5.9+9bce411b6f/fabric-item-api-v1-cdbb5210-11.5.9+9bce411b6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-item-group-api-v1-cdbb5210/4.2.25+86b3ae576f/fabric-item-group-api-v1-cdbb5210-4.2.25+86b3ae576f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-model-loading-api-v1-cdbb5210/6.0.2+3ffd6ef06f/fabric-model-loading-api-v1-cdbb5210-6.0.2+3ffd6ef06f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-indigo-cdbb5210/4.1.1+d7df91576f/fabric-renderer-indigo-cdbb5210-4.1.1+d7df91576f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-renderer-api-v1-cdbb5210/7.2.0+3706cdf36f/fabric-renderer-api-v1-cdbb5210-7.2.0+3706cdf36f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-v1-cdbb5210/16.0.2+19a99b056f/fabric-rendering-v1-cdbb5210-16.0.2+19a99b056f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-lifecycle-events-v1-cdbb5210/2.6.9+33df5e6e6f/fabric-lifecycle-events-v1-cdbb5210-2.6.9+33df5e6e6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v2-cdbb5210/3.0.65+3f89f5a56f/fabric-loot-api-v2-cdbb5210-3.0.65+3f89f5a56f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-loot-api-v3-cdbb5210/2.0.12+d17682156f/fabric-loot-api-v3-cdbb5210-2.0.12+d17682156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-message-api-v1-cdbb5210/6.1.7+3154c1c86f/fabric-message-api-v1-cdbb5210-6.1.7+3154c1c86f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-particles-v1-cdbb5210/4.2.3+a0ee59a46f/fabric-particles-v1-cdbb5210-4.2.3+a0ee59a46f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-recipe-api-v1-cdbb5210/8.1.27+d17682156f/fabric-recipe-api-v1-cdbb5210-8.1.27+d17682156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-object-builder-api-v1-cdbb5210/21.1.26+9bce411b6f/fabric-object-builder-api-v1-cdbb5210-21.1.26+9bce411b6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-handler-api-v1-cdbb5210/1.3.151+d17682156f/fabric-screen-handler-api-v1-cdbb5210-1.3.151+d17682156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-registry-sync-v0-cdbb5210/6.1.42+679c8c5c6f/fabric-registry-sync-v0-cdbb5210-6.1.42+679c8c5c6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-networking-api-v1-cdbb5210/5.1.0+b095d8db6f/fabric-networking-api-v1-cdbb5210-5.1.0+b095d8db6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-rendering-fluids-v1-cdbb5210/3.1.38+86b3ae576f/fabric-rendering-fluids-v1-cdbb5210-3.1.38+86b3ae576f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-tag-api-v1-cdbb5210/1.2.11+2fa446b26f/fabric-tag-api-v1-cdbb5210-1.2.11+2fa446b26f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v0-cdbb5210/3.2.3+3388a3b26f/fabric-resource-loader-v0-cdbb5210-3.2.3+3388a3b26f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-loader-v1-cdbb5210/1.0.3+8cc86c156f/fabric-resource-loader-v1-cdbb5210-1.0.3+8cc86c156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-screen-api-v1-cdbb5210/3.1.0+9c82a7986f/fabric-screen-api-v1-cdbb5210-3.1.0+9c82a7986f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-api-base-cdbb5210/1.0.0+14b92d896f/fabric-api-base-cdbb5210-1.0.0+14b92d896f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-biome-api-v1-cdbb5210/16.1.0+c2417d4f6f/fabric-biome-api-v1-cdbb5210-16.1.0+c2417d4f6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-api-v1-cdbb5210/1.1.5+d17682156f/fabric-block-api-v1-cdbb5210-1.1.5+d17682156f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-block-view-api-v2-cdbb5210/1.0.34+e4fd1b926f/fabric-block-view-api-v2-cdbb5210-1.0.34+e4fd1b926f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-client-gametest-api-v1-cdbb5210/4.2.13+14b92d896f/fabric-client-gametest-api-v1-cdbb5210-4.2.13+14b92d896f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-crash-report-info-v1-cdbb5210/0.3.18+33df5e6e6f/fabric-crash-report-info-v1-cdbb5210-0.3.18+33df5e6e6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-dimensions-v1-cdbb5210/4.0.22+38b9cc196f/fabric-dimensions-v1-cdbb5210-4.0.22+38b9cc196f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-game-rule-api-v1-cdbb5210/1.1.1+e47eaae56f/fabric-game-rule-api-v1-cdbb5210-1.1.1+e47eaae56f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-key-binding-api-v1-cdbb5210/1.1.1+b3ba9c486f/fabric-key-binding-api-v1-cdbb5210-1.1.1+b3ba9c486f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-resource-conditions-api-v1-cdbb5210/5.0.28+33df5e6e6f/fabric-resource-conditions-api-v1-cdbb5210-5.0.28+33df5e6e6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-serialization-api-v1-cdbb5210/1.0.0+d857c9766f/fabric-serialization-api-v1-cdbb5210-1.0.0+d857c9766f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-sound-api-v1-cdbb5210/1.0.45+328a75ba6f/fabric-sound-api-v1-cdbb5210-1.0.45+328a75ba6f.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/remapped/net/fabricmc/fabric-api/fabric-transitive-access-wideners-v1-cdbb5210/6.5.3+41eb43436f/fabric-transitive-access-wideners-v1-cdbb5210-6.5.3+41eb43436f.jar
+[Architectury Transformer] Read classpath in 1.530 s
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/13443282588751159623.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@447d6272
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@5734bcd4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@5583419
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@b9a07a1
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@24db9a52
+[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/13443282588751159623.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HappyGhastMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/EquippableMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HappyGhastRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAAdvancements with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantments with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /happy_airships-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /happy_airships.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar
-[Architectury Transformer] Listening at /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/25319967521058298.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/13443282588751159623.jar
+[Architectury Transformer] Listening at /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/13443282588751159623.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.1+1.21.10-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/fabric/build/classes/java/main] contains packages: io.github.ghasto69.happy_airships.fabric.datagen, io.github.ghasto69.happy_airships.fabric, io.github.ghasto69.happy_airships.fabric.client
 [Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/fabric/build/resources/main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 774.4 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 673.2 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 756.7 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 1.535 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 611.7 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 1.160 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 181.2 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 279.0 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 193.0 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 354.5 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 567.6 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 873.1 μs
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 2.402 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 639.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 2.114 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 381.6 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 841.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 1.567 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 414.5 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 548.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 789.9 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 1.787 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 339.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 778.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 1.118 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 264.5 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 416.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 903.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 1.073 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 236.5 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 487.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 785.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 241.2 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 323.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 427.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 904.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 219.3 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 501.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 834.4 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 268.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 304.4 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 624.2 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 688.3 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 199.9 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 406.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 553.2 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 166.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 258.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 758.5 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 847.3 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 184.6 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 387.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 498.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 291.6 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 298.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 743.9 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 726.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 156.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 361.1 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 442.7 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 184.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 214.9 μs
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItemTags.class to io/github/ghasto69/happy_airships/HAItemTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 305.8 μs
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class to io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 631.2 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 431.5 μs
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 504.9 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 687.9 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 178.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 345.6 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 540.0 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 245.8 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerModel.class to io/github/ghasto69/happy_airships/PropellerModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerModel in 280.3 μs
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItemTags.class to io/github/ghasto69/happy_airships/HAItemTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 168.8 μs
