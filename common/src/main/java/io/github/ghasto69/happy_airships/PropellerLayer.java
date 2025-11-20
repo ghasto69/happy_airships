@@ -24,6 +24,8 @@ public class PropellerLayer extends RenderLayer<HappyGhastRenderState, HappyGhas
 
     @Override
     public void submit(PoseStack poseStack, SubmitNodeCollector submitNodeCollector, int i, HappyGhastRenderState renderState, float f, float g) {
+        if(!renderState.bodyItem.is(HAItemTags.HARNESSES_WITH_PROPELLERS)) return;
+
         poseStack.pushPose();
 
         poseStack.scale(2, 2, 2);
