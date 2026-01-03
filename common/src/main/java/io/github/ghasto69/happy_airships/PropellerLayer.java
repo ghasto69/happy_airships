@@ -3,9 +3,10 @@ package io.github.ghasto69.happy_airships;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.HappyGhastModel;
+import net.minecraft.client.model.animal.ghast.HappyGhastModel;
 import net.minecraft.client.model.geom.EntityModelSet;
-import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.rendertype.RenderType;
+import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
@@ -19,7 +20,7 @@ public class PropellerLayer extends RenderLayer<HappyGhastRenderState, HappyGhas
     public PropellerLayer(RenderLayerParent<HappyGhastRenderState, HappyGhastModel> renderLayerParent, EntityModelSet modelSet) {
         super(renderLayerParent);
         model = new PropellerModel(modelSet.bakeLayer(PropellerModel.LAYER_LOCATION));
-        renderType = RenderType.entityCutoutNoCull(ExampleMod.id("textures/entity/happy_ghast/propeller.png"));
+        renderType = RenderTypes.entityCutoutNoCull(ExampleMod.id("textures/entity/happy_ghast/propeller.png"));
     }
 
     @Override
@@ -41,7 +42,7 @@ public class PropellerLayer extends RenderLayer<HappyGhastRenderState, HappyGhas
 
         submitNodeCollector.submitModel(this.model, renderState, poseStack, this.renderType, i, OverlayTexture.NO_OVERLAY, renderState.outlineColor, null);
 //        if(renderState.bodyItem.hasFoil()) {
-//            submitNodeCollector.submitModel(this.model, renderState, poseStack, RenderType.glint(), i, OverlayTexture.NO_OVERLAY, renderState.outlineColor, null);
+//            submitNodeCollector.submitModel(this.model, renderState, poseStack, RenderTypes.glint(), i, OverlayTexture.NO_OVERLAY, renderState.outlineColor, null);
 //        }
         poseStack.popPose();
     }

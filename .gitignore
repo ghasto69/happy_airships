@@ -3,14 +3,27 @@
 /build/
 /common/.gradle/
 /common/build/
-/common/build/classes/java/main/
 /fabric/.gradle/
 /fabric/build/
-/fabric/build/classes/java/main/
 /neoforge/.gradle/
 /neoforge/build/
-/neoforge/build/classes/java/main/
-/fabric/run/
-/neoforge/run/
 /common/src/generated/
+
+# Runtime data and caches
+**/run/
+**/logs/
+**/crash-reports/
+**/saves/
+**/world/
+**/worlds/
+**/.cache/
+
+# IDE/OS
 /.idea/
+**/.idea/
+.vscode/
+*.iml
+.DS_Store
+**/.project
+**/.classpath
+**/.settings/

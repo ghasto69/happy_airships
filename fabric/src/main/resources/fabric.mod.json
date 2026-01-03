@@ -3,15 +3,15 @@
   "id": "happy_airships",
   "version": "${version}",
   "name": "Happy Airships",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This mod adds propellers to your happy ghasts adding a speed boost!",
   "authors": [
-    "Me!"
+    "Ghasto69"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ghasto69/happy_airships",
+    "sources": "https://github.com/ghasto69/happy_airships"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/happy_airships/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -29,8 +29,8 @@
     "happy_airships.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.17.0",
-    "minecraft": "~1.21.8",
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
     "java": ">=21",
     "fabric-api": "*"
   },

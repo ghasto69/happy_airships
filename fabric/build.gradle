@@ -25,6 +25,7 @@ configurations {
 }
 
 loom {
+    enableModProvidedJavadoc.set(false)
     runs {
         datagen {
             client()

@@ -38,7 +38,7 @@ public class HappyAirshipsDatagen implements DataGeneratorEntrypoint {
                                     EquipmentSlotGroup.BODY
                             ))
                             .withSpecialEffect(HAEnchantmentEffects.SWIFTNESS, new AddValue(LevelBasedValue.perLevel(0.5F)))
-                            .build(HAEnchantments.SWIFTNESS.location())
+                            .build(HAEnchantments.SWIFTNESS.identifier())
             );
         });
     }
