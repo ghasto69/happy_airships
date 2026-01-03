@@ -1,12 +1,12 @@
 package io.github.ghasto69.happy_airships.mixin;
 
 import io.github.ghasto69.happy_airships.PropellerLayer;
-import net.minecraft.client.model.HappyGhastModel;
+import net.minecraft.client.model.animal.ghast.HappyGhastModel;
 import net.minecraft.client.renderer.entity.AgeableMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.HappyGhastRenderer;
 import net.minecraft.client.renderer.entity.state.HappyGhastRenderState;
-import net.minecraft.world.entity.animal.HappyGhast;
+import net.minecraft.world.entity.animal.happyghast.HappyGhast;
 import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

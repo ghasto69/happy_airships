@@ -1,6 +1,6 @@
 package io.github.ghasto69.happy_airships;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 public final class ExampleMod {
     public static final String MOD_ID = "happy_airships";
@@ -14,5 +14,5 @@ public final class ExampleMod {
         HAEnchantmentEffects.register();
     }
 
-    public static ResourceLocation id(String path) { return ResourceLocation.fromNamespaceAndPath(MOD_ID, path); }
+    public static Identifier id(String path) { return Identifier.fromNamespaceAndPath(MOD_ID, path); }
 }

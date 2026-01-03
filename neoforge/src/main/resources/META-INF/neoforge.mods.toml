@@ -1,29 +1,29 @@
 modLoader = "javafml"
 loaderVersion = "[9,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+#issueTrackerURL = "https://github.com/ghasto69/happy_airships/issues"
+license = "MIT"
 
 [[mods]]
 modId = "happy_airships"
 version = "${version}"
 displayName = "Happy Airships"
-authors = "Me!"
+authors = "Ghasto69"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+This mod adds propellers to your happy ghasts adding a speed boost!
 '''
-#logoFile = ""
+#logoFile = "assets/happy_airships/icon.png"
 
 [[dependencies.happy_airships]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21.7,)"
+versionRange = "[21.11,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.happy_airships]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.8,)"
+versionRange = "[1.21.11,)"
 ordering = "NONE"
 side = "BOTH"
 
