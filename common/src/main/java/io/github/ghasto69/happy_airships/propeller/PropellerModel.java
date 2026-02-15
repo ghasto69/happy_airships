@@ -1,8 +1,9 @@
-package io.github.ghasto69.happy_airships;// Made with Blockbench 5.0.3
+package io.github.ghasto69.happy_airships.propeller;// Made with Blockbench 5.0.3
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
 
+import io.github.ghasto69.happy_airships.ExampleMod;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;

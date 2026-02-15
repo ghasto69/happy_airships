@@ -9,10 +9,10 @@ import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementType;
 import net.minecraft.advancements.CriteriaTriggers;
-import net.minecraft.advancements.critereon.ImpossibleTrigger;
+import net.minecraft.advancements.criterion.ImpossibleTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
@@ -25,7 +25,7 @@ public class HAAdvancementProvider extends FabricAdvancementProvider {
     @Override
     public void generateAdvancement(HolderLookup.Provider provider, Consumer<AdvancementHolder> consumer) {
         final var happyAirship = Advancement.Builder.advancement()
-                .parent(ResourceLocation.withDefaultNamespace("husbandry/place_dried_ghast_in_water"))
+                .parent(Identifier.withDefaultNamespace("husbandry/place_dried_ghast_in_water"))
                 .display(
                         HAItems.PROPELLER,
                         Component.translatable("advancement.happy_airships.happy_airship"),

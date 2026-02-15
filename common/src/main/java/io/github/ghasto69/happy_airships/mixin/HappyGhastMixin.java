@@ -4,7 +4,7 @@ import io.github.ghasto69.happy_airships.HAEnchantmentEffects;
 import io.github.ghasto69.happy_airships.HAItemTags;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.animal.HappyGhast;
+import net.minecraft.world.entity.animal.happyghast.HappyGhast;
 import net.minecraft.world.level.Level;
 import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,6 +1,6 @@
 package io.github.ghasto69.happy_airships.fabric.client;
 
-import io.github.ghasto69.happy_airships.PropellerModel;
+import io.github.ghasto69.happy_airships.propeller.PropellerModel;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 

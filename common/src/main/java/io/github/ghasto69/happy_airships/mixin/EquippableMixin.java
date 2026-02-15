@@ -1,7 +1,7 @@
 package io.github.ghasto69.happy_airships.mixin;
 
 import io.github.ghasto69.happy_airships.HAItemTags;
-import io.github.ghasto69.happy_airships.PropellerItem;
+import io.github.ghasto69.happy_airships.propeller.PropellerItem;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;

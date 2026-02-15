@@ -1,15 +1,18 @@
-package io.github.ghasto69.happy_airships;
+package io.github.ghasto69.happy_airships.propeller;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
+import io.github.ghasto69.happy_airships.ExampleMod;
+import io.github.ghasto69.happy_airships.HAItemTags;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.model.HappyGhastModel;
+import net.minecraft.client.model.animal.ghast.HappyGhastModel;
 import net.minecraft.client.model.geom.EntityModelSet;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
 import net.minecraft.client.renderer.entity.state.HappyGhastRenderState;
+import net.minecraft.client.renderer.rendertype.RenderType;
+import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 
 public class PropellerLayer extends RenderLayer<HappyGhastRenderState, HappyGhastModel> {
@@ -19,7 +22,7 @@ public class PropellerLayer extends RenderLayer<HappyGhastRenderState, HappyGhas
     public PropellerLayer(RenderLayerParent<HappyGhastRenderState, HappyGhastModel> renderLayerParent, EntityModelSet modelSet) {
         super(renderLayerParent);
         model = new PropellerModel(modelSet.bakeLayer(PropellerModel.LAYER_LOCATION));
-        renderType = RenderType.entityCutoutNoCull(ExampleMod.id("textures/entity/happy_ghast/propeller.png"));
+        renderType = RenderTypes.entityCutoutNoCull(ExampleMod.id("textures/entity/happy_ghast/propeller.png"));
     }
 
     @Override

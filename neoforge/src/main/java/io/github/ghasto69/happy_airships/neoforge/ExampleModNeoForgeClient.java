@@ -1,7 +1,7 @@
 package io.github.ghasto69.happy_airships.neoforge;
 
 import io.github.ghasto69.happy_airships.ExampleMod;
-import io.github.ghasto69.happy_airships.PropellerModel;
+import io.github.ghasto69.happy_airships.propeller.PropellerModel;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
