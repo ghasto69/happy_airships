@@ -43,8 +43,10 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version"
 
-    modImplementation "maven.modrinth:vanillabackport:1.21.1-1.1.4.3-fabric"
-    modImplementation "maven.modrinth:platform:1.21.1-1.2.10.2-fabric"
+    modImplementation "maven.modrinth:vanillabackport:dQd9n3aB"
+    modImplementation "maven.modrinth:platform:gV5SV031"
+
+    implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.3.7-beta.1"))
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')

@@ -23,22 +23,22 @@ import java.util.Optional;
 
 public class GhastHarnessLayer<T extends HappyGhast> extends RenderLayer<T, HappyGhastModel<T>> {
     private static final Map<ItemStack, ResourceLocation> TEXTURE_BY_ITEM = (new ImmutableMap.Builder<ItemStack, ResourceLocation>())
-            .put(new ItemStack(HAItems.WHITE_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/white_harness.png"))
-            .put(new ItemStack(HAItems.ORANGE_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/orange_harness.png"))
-            .put(new ItemStack(HAItems.MAGENTA_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/magenta_harness.png"))
-            .put(new ItemStack(HAItems.LIGHT_BLUE_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/light_blue_harness.png"))
-            .put(new ItemStack(HAItems.YELLOW_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/yellow_harness.png"))
-            .put(new ItemStack(HAItems.LIME_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/lime_harness.png"))
-            .put(new ItemStack(HAItems.PINK_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/pink_harness.png"))
-            .put(new ItemStack(HAItems.GRAY_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/gray_harness.png"))
-            .put(new ItemStack(HAItems.LIGHT_GRAY_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/light_gray_harness.png"))
-            .put(new ItemStack(HAItems.CYAN_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/cyan_harness.png"))
-            .put(new ItemStack(HAItems.PURPLE_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/purple_harness.png"))
-            .put(new ItemStack(HAItems.BLUE_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/blue_harness.png"))
-            .put(new ItemStack(HAItems.BROWN_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/brown_harness.png"))
-            .put(new ItemStack(HAItems.GREEN_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/green_harness.png"))
-            .put(new ItemStack(HAItems.RED_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/red_harness.png"))
-            .put(new ItemStack(HAItems.BLACK_HARNESS), VanillaBackport.resource("textures/entity/ghast/harness/black_harness.png"))
+            .put(new ItemStack(HAItems.WHITE_HARNESS), ResourceLocation.withDefaultNamespace(("textures/entity/ghast/harness/white_harness.png")))
+            .put(new ItemStack(HAItems.ORANGE_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/orange_harness.png"))
+            .put(new ItemStack(HAItems.MAGENTA_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/magenta_harness.png"))
+            .put(new ItemStack(HAItems.LIGHT_BLUE_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/light_blue_harness.png"))
+            .put(new ItemStack(HAItems.YELLOW_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/yellow_harness.png"))
+            .put(new ItemStack(HAItems.LIME_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/lime_harness.png"))
+            .put(new ItemStack(HAItems.PINK_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/pink_harness.png"))
+            .put(new ItemStack(HAItems.GRAY_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/gray_harness.png"))
+            .put(new ItemStack(HAItems.LIGHT_GRAY_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/light_gray_harness.png"))
+            .put(new ItemStack(HAItems.CYAN_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/cyan_harness.png"))
+            .put(new ItemStack(HAItems.PURPLE_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/purple_harness.png"))
+            .put(new ItemStack(HAItems.BLUE_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/blue_harness.png"))
+            .put(new ItemStack(HAItems.BROWN_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/brown_harness.png"))
+            .put(new ItemStack(HAItems.GREEN_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/green_harness.png"))
+            .put(new ItemStack(HAItems.RED_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/red_harness.png"))
+            .put(new ItemStack(HAItems.BLACK_HARNESS), ResourceLocation.withDefaultNamespace("textures/entity/ghast/harness/black_harness.png"))
             .build();
     private final HappyGhastHarnessModel<T> model;
 
@@ -49,7 +49,7 @@ public class GhastHarnessLayer<T extends HappyGhast> extends RenderLayer<T, Happ
 
     public void render(PoseStack poseStack, MultiBufferSource buffer, int packedLight, T entity, float limbSwing, float limbSwingAmount, float partialTick, float ageInTicks, float netHeadYaw, float headPitch) {
         Optional<ResourceLocation> texture = TEXTURE_BY_ITEM.entrySet().stream().filter((entry) -> entity.getItemBySlot(EquipmentSlot.CHEST).is(((ItemStack)entry.getKey()).getItem())).map(Map.Entry::getValue).findFirst();
-        if (texture.isPresent() && entity.isSaddled()) {
+        if (texture.isPresent() && entity.isHarnessed()) {
             this.getParentModel().copyPropertiesTo(this.model);
             this.model.prepareMobModel(entity, limbSwing, limbSwingAmount, partialTick);
             this.model.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);

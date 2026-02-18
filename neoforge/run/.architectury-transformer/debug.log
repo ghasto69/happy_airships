@@ -1,10 +1,10 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 94 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 96 classpath jar(s):
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/fabric-loom/1.21.1/neoforge/21.1.197/client-extra.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/dev.architectury/architectury-injectables/1.0.10/62db2a366d662606d1b23ad02ccc3212ed37ec3/architectury-injectables-1.0.10.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.17.0/43f0a8e38485eeb3af7bfd4862e1a7a5a6f8278a/fabric-loader-0.17.0.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.18.4/dc4682125d5db647d6ce80a98b98945835adcd4b/fabric-loader-0.18.4.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/25.0.0/c1e6b966db352094ac3bf7f88f3bdef332fe43f0/annotations-25.0.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/4.0.41/53dfbd387ed1b88c7d144bdb6551b7f57d5da6d7/earlydisplay-4.0.41.jar
@@ -30,6 +30,8 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.8/36e4d212970388e5bd2c5180292012502df461bb/asm-commons-9.8.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.8/395f1c1f035258511f27bc9b2583d76e4b143f59/asm-util-9.8.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.8/b9747a320844b6cb1eacd90d8ecfd260a16c01d3/asm-analysis-9.8.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.github.juuxel/unprotect-modlauncher/2.0.2/20d36922d7bb84c3185c213e935150584d6c7166/unprotect-modlauncher-2.0.2.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.github.juuxel/unprotect/2.0.2/d79e894ec170237a02281b45e3203df6306675d6/unprotect-2.0.2.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.8/18419ca5b77a2f81097c741e7872e6ab8d2f40d/asm-tree-9.8.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.8/dc19ecb3f7889b7860697215cae99c0f9b6f6b4b/asm-9.8.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/net.neoforged/JarJarFileSystems/0.4.1/78f59f89defcd032ed788b151ca6a0d40ace796a/JarJarFileSystems-0.4.1.jar
@@ -41,7 +43,6 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.9/7cf2726fdcfbc8610f9a71fb3ed639871f315340/slf4j-api-2.0.9.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.13.1/17125bae1d965624e265ef49552f6465a2bfa307/antlr4-runtime-4.13.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.22.1/7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4/log4j-core-2.22.1.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.github.juuxel/unprotect/1.3.1/432f07e4f647aa3c33aba0b7e630dd3948f65bae/unprotect-1.3.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.22.1/bea6fede6328fabafd7e68363161a7ea6605abd1/log4j-api-2.22.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.jline/jline-reader/3.20.0/8f15415b022a25b473e8e16c28ae913186ffb9c4/jline-reader-3.20.0.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.20.0/d0ddcc708ddf527a3454c941b7b9225cc83a15ff/jline-terminal-3.20.0.jar
@@ -60,6 +61,7 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.3/25dd6161988d7e65f71d5065c99902402ee32746/lwjgl-stb-3.3.3.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.3/82d755ca94b102e9ca77283b9e2dc46d1b15fbe5/lwjgl-tinyfd-3.3.3.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.3/29589b5f87ed335a6c7e7ee6a5775f81f97ecb84/lwjgl-3.3.3.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.github.bawnorton.mixinsquared/mixinsquared-neoforge/0.3.7-beta.1/efb557aade8a12a060358a98e94840fd7d28f8bb/mixinsquared-neoforge-0.3.7-beta.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.1/1227f9e0666314f9de41477e3ec277e542ed7f7b/java-objc-bridge-1.1.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.github.oshi/oshi-core/6.4.10/b1d8ab82d11d92fd639b56d639f8f46f739dd5fa/oshi-core-6.4.10.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/73.2/61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9/icu4j-73.2.jar
@@ -94,222 +96,132 @@
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/neoforge-21.1.197-minecraft-merged/1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.197/neoforge-21.1.197-minecraft-merged-1.21.1-loom.mappings.1_21_1.layered+hash.40359-v2-neoforge-21.1.197.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.97.Final/54188f271e388e7f313aea995e82f58ce2cdb809/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - /Users/fyodorshabalin/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.97.Final/5514744c588190ffda076b35a9b8c9f24946a960/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_1_layered_hash_40359_v2_neoforge_21_1_197_forge/maven/modrinth/vanillabackport/1.21.1-1.1.4.3-neoforge/vanillabackport-1.21.1-1.1.4.3-neoforge.jar
-[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_1_layered_hash_40359_v2_neoforge_21_1_197_forge/maven/modrinth/platform/1.21.1-1.2.10.2-neoforge/platform-1.21.1-1.2.10.2-neoforge.jar
-[Architectury Transformer] Read classpath in 950.3 ms
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 6 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4306611534438057745.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4b4efe16
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4aa0ee7c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@148aeed
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@422c8d72
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@7e2e756f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeNeoForgeMod@33b0b7d8
-[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4306611534438057745.jar with 6 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_1_layered_hash_40359_v2_neoforge_21_1_197_forge/maven/modrinth/vanillabackport/UPdfb9fX/vanillabackport-UPdfb9fX.jar
+[Architectury Transformer DEBUG]  - /Users/fyodorshabalin/Documents/happy_airships/.gradle/loom-cache/remapped_mods/loom_mappings_1_21_1_layered_hash_40359_v2_neoforge_21_1_197_forge/maven/modrinth/platform/ZmMlPE4e/platform-ZmMlPE4e.jar
+[Architectury Transformer] Read classpath in 1.016 s
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Transforming 6 transformer(s) from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/6521399627740030415.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@3ee0fea4
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@48524010
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@4b168fa9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@1a84f40f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@23282c25
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeNeoForgeMod@7920ba90
+[Architectury Transformer DEBUG] Transforming from /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar to /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/6521399627740030415.jar with 6 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/GhastHarnessLayer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/GhastHarnessLayer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerHarnessItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAAdvancements with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantments with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAAdvancements with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HappyGhastRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HappyGhastMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/mixin/HarnessItemMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4306611534438057745.jar
-[Architectury Transformer] Listening at /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/4306611534438057745.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
-[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
-[Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/neoforge/build/classes/java/main] contains packages: io.github.ghasto69.happy_airships.neoforge
-[Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships-1.21.7-fabric-neoforge-template/neoforge/build/resources/main] contains packages: 
+[Architectury Transformer DEBUG] Closed File Systems for /var/folders/np/99fhycjs403cr628m7m17p140000gp/T/6521399627740030415.jar
+[Architectury Transformer] Listening at /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [/var/folders/np/99fhycjs403cr628m7m17p140000gp/T/6521399627740030415.jar] contains packages: io.github.ghasto69.happy_airships, io.github.ghasto69.happy_airships.mixin
+[Architectury Transformer DEBUG] Closed File Systems for /Users/fyodorshabalin/Documents/happy_airships/common/build/devlibs/happy_airships-common-1.1.0-dev.jar
+[Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/neoforge/build/classes/java/main] contains packages: io.github.ghasto69.happy_airships.neoforge
+[Architectury Transformer DEBUG] Classpath entry [/Users/fyodorshabalin/Documents/happy_airships/neoforge/build/resources/main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 44.66 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 46.40 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 6.779 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 6.402 ms
+[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerHarnessItem.class to io/github/ghasto69/happy_airships/PropellerHarnessItem.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerHarnessItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerHarnessItem in 5.916 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 6.415 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 6.093 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 6.103 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 5.562 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 6.207 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 5.636 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/GhastHarnessLayer.class to io/github/ghasto69/happy_airships/GhastHarnessLayer.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/GhastHarnessLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/GhastHarnessLayer in 5.366 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/GhastHarnessLayer in 5.551 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 5.617 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 5.128 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItemTags.class to io/github/ghasto69/happy_airships/HAItemTags.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 2.368 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 10.69 ms
 [Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class to io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000a80102f630@475e586c
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 5.118 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAAdvancements.class to io/github/ghasto69/happy_airships/HAAdvancements.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAAdvancements with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAAdvancements in 2.156 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItems.class to io/github/ghasto69/happy_airships/HAItems.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItems in 10.18 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer.class to io/github/ghasto69/happy_airships/PropellerLayer.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer in 3.258 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAEnchantmentEffects.class to io/github/ghasto69/happy_airships/HAEnchantmentEffects.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAEnchantmentEffects with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAEnchantmentEffects in 2.219 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAAdvancements.class to io/github/ghasto69/happy_airships/HAAdvancements.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAAdvancements with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAAdvancements in 1.841 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/ExampleMod.class to io/github/ghasto69/happy_airships/ExampleMod.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/ExampleMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/ExampleMod in 2.190 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class to io/github/ghasto69/happy_airships/PropellerLayer$Vertex.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerLayer$Vertex with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 2.044 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/HAItemTags.class to io/github/ghasto69/happy_airships/HAItemTags.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/HAItemTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/HAItemTags in 1.546 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/PropellerItem.class to io/github/ghasto69/happy_airships/PropellerItem.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/PropellerItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerItem in 2.768 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/MultiloaderUtils.class to io/github/ghasto69/happy_airships/MultiloaderUtils.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/MultiloaderUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/MultiloaderUtils in 1.696 ms
-[Architectury Transformer DEBUG] Transforming from io/github/ghasto69/happy_airships/GhastHarnessLayer.class to io/github/ghasto69/happy_airships/GhastHarnessLayer.class with 6 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000000700108f860@7f55f80e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/ghasto69/happy_airships/GhastHarnessLayer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/GhastHarnessLayer in 2.488 ms
+[Architectury Transformer DEBUG] Transformed io/github/ghasto69/happy_airships/PropellerLayer$Vertex in 2.967 ms

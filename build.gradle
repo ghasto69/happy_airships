@@ -32,6 +32,11 @@ subprojects {
         maven {
             url = "https://api.modrinth.com/maven"
         }
+
+        maven { url = "https://maven.bawnorton.com/releases" }
+
+        // Mirror
+        maven { url = "https://maven.enjarai.dev/mirrors" }
     }
 
     loom {
@@ -41,6 +46,8 @@ subprojects {
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
         mappings loom.officialMojangMappings()
+
+
     }
 
     java {
@@ -72,6 +79,7 @@ subprojects {
             // Notice: This block does NOT have the same function as the block in the top level.
             // The repositories here will be used for publishing your artifact, not for
             // retrieving dependencies.
+
         }
     }
 }

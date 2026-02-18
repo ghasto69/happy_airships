@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="defaultObfuscationEnv" value="named:intermediary" />
+        <option name="inMapFileNamedIntermediary" value="$USER_HOME$/.gradle/caches/fabric-loom/1.21.1/loom.mappings.1_21_1.layered+hash.40359-v2/mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_21_1.layered+hash.40359-v2.main.tiny" />
+        <option name="outRefMapFile" value="$PROJECT_DIR$/common/build/classes/java/main/happy_airships-common-common-refmap.json" />
+        <option name="quiet" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bawnorton.mixinsquared/mixinsquared-common/0.3.7-beta.1/5c279d26aacbf0d75a5cd72d88b2aede5baa9e0a/mixinsquared-common-0.3.7-beta.1.jar" />
+        </processorPath>
+        <module name="happy_airships.common.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="defaultObfuscationEnv" value="named:intermediary" />
+        <option name="inMapFileNamedIntermediary" value="$USER_HOME$/.gradle/caches/fabric-loom/1.21.1/loom.mappings.1_21_1.layered+hash.40359-v2/mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="$PROJECT_DIR$/fabric/build/loom-cache/mixin-map-loom.mappings.1_21_1.layered+hash.40359-v2.main.tiny" />
+        <option name="outRefMapFile" value="$PROJECT_DIR$/fabric/build/classes/java/main/happy_airships-fabric-fabric-refmap.json" />
+        <option name="quiet" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bawnorton.mixinsquared/mixinsquared-fabric/0.3.7-beta.1/d67df522e6bc6a90d6f2f7d9d8240aae050f0c9f/mixinsquared-fabric-0.3.7-beta.1.jar" />
+        </processorPath>
+        <module name="happy_airships.fabric.main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bawnorton.mixinsquared/mixinsquared-neoforge/0.3.7-beta.1/efb557aade8a12a060358a98e94840fd7d28f8bb/mixinsquared-neoforge-0.3.7-beta.1.jar" />
+        </processorPath>
+        <module name="happy_airships.neoforge.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">

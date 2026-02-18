@@ -18,9 +18,9 @@ public class PropellerHarnessItem extends Item {
 
     public InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity target, InteractionHand usedHand) {
         if (target instanceof HappyGhast ghast) {
-            if (target.isAlive() && !ghast.isSaddled() && ghast.isSaddleable()) {
+            if (target.isAlive() && !ghast.isHarnessed() && ghast.canBeHarnessed()) {
                 if (!player.level().isClientSide) {
-                    ghast.equipSaddle(ItemStack.EMPTY, SoundSource.NEUTRAL);
+                    ghast.equipHarness();
                     ghast.setItemSlot(EquipmentSlot.CHEST, stack.copy());
                     PropellerItem.awardAdvancement(player);
                     target.level().gameEvent(target, GameEvent.EQUIP, target.position());
